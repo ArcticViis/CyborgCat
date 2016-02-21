@@ -18,7 +18,7 @@ namespace Werecat
 
         private PlayerCameraController pcc;
         private Rigidbody rb;
-
+        //comment added testing git
         //public Vector3 pivot = Vector3.zero;
         #region Inputs
         private float forwardScale;
