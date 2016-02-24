@@ -31,6 +31,10 @@ namespace Werecat
             rb = GetComponent<Rigidbody>();
             pcc = GetComponent<PlayerCameraController>();
             looksens = pcc.LookSensitivity;
+
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            QualitySettings.vSyncCount = 0;
         }
 
         // Update is called once per frame
@@ -38,10 +42,20 @@ namespace Werecat
         {
             CheckGround();
             Jump();
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
         }
         void FixedUpdate()
         {
             Movement();
+            
+        }
+        void LateUpdate()
+        {
             Turning();
         }
 

@@ -17,11 +17,7 @@ public class PlayerShoot : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        AimAt();
-
-       
-        tube.LookAt( aim );
-        tube.Rotate(Vector3.right, 90);
+        
         //Debug.DrawLine(pipe.position, aim);
         if (Input.GetButtonDown("Fire1"))
         {
@@ -29,6 +25,15 @@ public class PlayerShoot : MonoBehaviour {
             instance.GetComponent<Rigidbody>().AddForce((aim - pipe.position).normalized * bulletVelo);
         }
 	}
+
+    void LateUpdate()
+    {
+        AimAt();
+
+
+        tube.LookAt(aim);
+        tube.Rotate(Vector3.right, 90);
+    }
 
     void AimAt()
     {
