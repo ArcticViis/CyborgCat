@@ -12,18 +12,18 @@ namespace Werecat
         [SerializeField]
         private float movementSpeed = 5f;
         [SerializeField]
+        private float sprintSpeed = 10f;
+        [SerializeField]
         private float jumpPower = 5f;
+        [SerializeField]
         private float looksens;
+        [SerializeField]
+        private float groundCheckDistance = 1f;
 
+        private bool isGrounded = true;
 
         private PlayerCameraController pcc;
         private Rigidbody rb;
-        //comment added testing git
-        //public Vector3 pivot = Vector3.zero;
-        #region Inputs
-        private float forwardScale;
-        private float rightScale;
-        #endregion
 
         // Use this for initialization
         void Start()
@@ -36,31 +36,33 @@ namespace Werecat
         // Update is called once per frame
         void Update()
         {
-            UpdateInput();
+            CheckGround();
+            Jump();
         }
         void FixedUpdate()
         {
-
             Movement();
             Turning();
-
         }
 
-        void LateUpdate()
+        void CheckGround()
         {
-        }
-        void UpdateInput()
-        {
-            forwardScale = Input.GetAxisRaw("Vertical");
-            rightScale = Input.GetAxisRaw("Horizontal");
+            isGrounded = false;
+            Ray ray = new Ray(transform.position, transform.up * -1);
+            if (Physics.Raycast(ray, groundCheckDistance)) isGrounded = true;
+            
+            //Debug.DrawLine(transform.position, transform.position + transform.up * -groundCheckDistance);
         }
         void Movement()
         {
-            Vector3 _forward = forwardScale * transform.forward;
-            Vector3 _right = rightScale * transform.right;
-            Vector3 _movement = (_forward + _right).normalized * movementSpeed;
-
+            Vector3 _forward = Input.GetAxisRaw("Vertical") * transform.forward;
+            Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
+            Vector3 _movement = (_forward + _right).normalized * ( Input.GetButton("Sprint") ? sprintSpeed : movementSpeed );
             rb.MovePosition(transform.position + _movement * Time.fixedDeltaTime);
+        }
+        void Jump()
+        {
+            if(Input.GetButtonDown("Jump") && isGrounded) rb.AddForce(Vector3.up * jumpPower, ForceMode.VelocityChange);
         }
 
         void Turning()
