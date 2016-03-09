@@ -25,7 +25,7 @@ namespace Werecat
         [SerializeField]
         private Transform pivot;
         [SerializeField]
-        private float sweepr = 1f;
+        //private float sweepr = 1f;
         private float distanceOffset;
 
 

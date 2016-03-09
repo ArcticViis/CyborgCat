@@ -10,6 +10,9 @@ public class PlayerShoot : MonoBehaviour {
     private Vector3 aim = Vector3.zero;
     public float bulletVelo = 2500f;
     public Transform followCross;
+    public float damp = 1;
+
+
 	// Use this for initialization
 	void Start () {
         
@@ -23,7 +26,7 @@ public class PlayerShoot : MonoBehaviour {
         if (Input.GetButtonDown("Fire1"))
         {
             GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90,0,0)) as GameObject;
-            instance.GetComponent<Rigidbody>().AddForce((aim - pipe.position).normalized * bulletVelo);
+            instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
         }
         
     }
@@ -61,14 +64,16 @@ public class PlayerShoot : MonoBehaviour {
         Vector3 _aim = Vector3.zero;
         Ray ray = new Ray(tube.position, pipe.up);
         RaycastHit _hit;
+        int layermask = 1 << 8;
+        layermask = ~layermask;
 
-        if(Physics.Raycast(ray,out _hit, 300))
+        if(Physics.Raycast(ray,out _hit, 300f, layermask))
         {
-            followCross.position = Camera.main.WorldToScreenPoint(_hit.point);
+            followCross.position = Vector3.Lerp(followCross.position, Camera.main.WorldToScreenPoint(_hit.point), Time.deltaTime*damp);
         }
         else
         {
-            followCross.position = Vector3.zero;
+            followCross.position = Vector3.Lerp(followCross.position, new Vector2(Screen.width/2, Screen.height/2), Time.deltaTime*damp);
         }
 
         

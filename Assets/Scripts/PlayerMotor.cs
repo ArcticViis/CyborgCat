@@ -85,8 +85,9 @@ namespace Werecat
         {
             Vector3 _forward = Input.GetAxisRaw("Vertical") * transform.forward;
             Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
-            Vector3 _movement = (_forward + _right).normalized *  movementSpeed;
-            rb.MovePosition(transform.position + _movement * Time.fixedDeltaTime);
+
+            Vector3 _movement = (_forward + _right).normalized *  movementSpeed ;
+            rb.MovePosition(transform.position + _movement * Time.fixedDeltaTime );
         }
         void Jump()
         {

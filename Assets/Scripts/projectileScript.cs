@@ -4,10 +4,10 @@ using System.Collections;
 public class projectileScript : MonoBehaviour {
 
 
-    float time = 10f;
+    public float time = 10f;
 	// Use this for initialization
 	void Start () {
-        time = 10f;
+        //time = 10f;
     }
 	
 	// Update is called once per frame
