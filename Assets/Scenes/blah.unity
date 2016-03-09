@@ -192,7 +192,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 34661074}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -1163,6 +1163,7 @@ GameObject:
   - 114: {fileID: 1495541468}
   - 114: {fileID: 1495541472}
   - 114: {fileID: 1495541473}
+  - 135: {fileID: 1495541474}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1211,7 +1212,7 @@ CapsuleCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1495541467}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 834e5780f5036dd468a1dd86d3ed4f84, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -1250,7 +1251,7 @@ MonoBehaviour:
   lookSensitivity: 3
   lookMinMAx: 85
   pivot: {fileID: 909350510}
-  sweepr: 1
+  distanceOffset: 0
   minFOV: 33.8
   maxFOV: 60
   fovChangeSpeed: 5.23
@@ -1270,6 +1271,19 @@ MonoBehaviour:
   pipe: {fileID: 1071784705}
   bulletVelo: 5000
   followCross: {fileID: 767244887}
+  damp: 45
+--- !u!135 &1495541474
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495541467}
+  m_Material: {fileID: 13400000, guid: d45095de398d23a4cb11f0d15712d05a, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.55
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1529964361
 GameObject:
   m_ObjectHideFlags: 0
