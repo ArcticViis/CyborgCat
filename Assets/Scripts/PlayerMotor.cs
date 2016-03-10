@@ -79,7 +79,7 @@ namespace Werecat
             Ray ray = new Ray(transform.position, transform.up * -1);
             if (Physics.Raycast(ray, groundCheckDistance)) isGrounded = true;
             
-            //Debug.DrawLine(transform.position, transform.position + transform.up * -groundCheckDistance);
+            Debug.DrawLine(transform.position, transform.position + transform.up * -groundCheckDistance);
         }
         void Movement()
         {
