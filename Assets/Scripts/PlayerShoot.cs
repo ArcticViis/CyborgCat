@@ -100,13 +100,8 @@ public class PlayerShoot : MonoBehaviour {
         else
         {
             Debug.Log("Firing");
-
             shootProjectile();
         }
-            
-
-        
-
         yield return new WaitForSeconds(_waitTime);
     }
 }

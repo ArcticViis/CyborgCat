@@ -6,8 +6,9 @@ public class PlayerController : MonoBehaviour {
 
     private CharacterController cc;
 
-    private float runMS = 10f;
-    private float walkMS = 6f;
+    // Movement speeds
+    private float runMS = 10f;  
+    private float walkMS = 6f;  // says walk, means jog
     private float sneakMS = 3f;
 
 
