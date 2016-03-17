@@ -25,8 +25,8 @@ public class PlayerShoot : MonoBehaviour {
         //Debug.DrawLine(pipe.position, aim);
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90,0,0)) as GameObject;
-            instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
+            StopCoroutine("Shoot");
+            StartCoroutine(Shoot(2f, 3f));
         }
         
     }
@@ -75,7 +75,38 @@ public class PlayerShoot : MonoBehaviour {
         {
             followCross.position = Vector3.Lerp(followCross.position, new Vector2(Screen.width/2, Screen.height/2), Time.deltaTime*damp);
         }
+    }
+
+    private void shootProjectile()
+    {
+        GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90, 0, 0)) as GameObject;
+        instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
+    }
+    private IEnumerator Shoot( float _chargeTime, float _waitTime)
+    {
+
+        float _timeElapsed = 0;
+        while (Input.GetButton("Fire1") && _chargeTime > _timeElapsed)
+        {
+            _timeElapsed += Time.fixedDeltaTime;
+            //Debug.Log("Charging");
+            yield return new WaitForFixedUpdate();
+        }
+
+        if (_chargeTime > _timeElapsed)
+        {
+            yield return null;
+        }
+        else
+        {
+            Debug.Log("Firing");
+
+            shootProjectile();
+        }
+            
 
         
+
+        yield return new WaitForSeconds(_waitTime);
     }
 }
