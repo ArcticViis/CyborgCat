@@ -5,6 +5,7 @@ public class Bridgefall1 : MonoBehaviour {
 
 
 	public AudioSource audioSource;
+	public AudioSource audioSource2;
 	public Animator[] animator;
 	private bool kill = false;
 
@@ -15,7 +16,6 @@ public class Bridgefall1 : MonoBehaviour {
 
 		if(coll.gameObject.tag == "Player"){
 			Debug.Log("trying shit");
-			audioSource.PlayOneShot(audioSource.clip, 1.0f);
 
 			foreach (Animator _animator in animator) {
 				_animator.SetTrigger ("Playerenter1");
@@ -25,7 +25,8 @@ public class Bridgefall1 : MonoBehaviour {
 				animator[i].SetTrigger ("Playerenter1");
 				Debug.Log("Dropping shit");
 			}
-				
+			audioSource.PlayOneShot(audioSource.clip, 1.0f);
+			audioSource2.PlayOneShot(audioSource2.clip, 1.0f);
 			kill = true;
 
 		}
