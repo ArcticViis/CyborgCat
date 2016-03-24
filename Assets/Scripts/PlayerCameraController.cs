@@ -52,12 +52,13 @@ namespace Werecat
 
         void Update()
         {
-            CameraCollision();
+            
             CameraZoom(Input.GetButton("Fire2"));
 
         }
         void LateUpdate()
         {
+            CameraCollision();
             UpdateCamera();
             
 
@@ -75,12 +76,14 @@ namespace Werecat
 
         void CameraCollision() // http://wiki.unity3d.com/index.php/SmoothFollowWithCameraBumper
         {
+            Vector3 pivPos = pivot.position;
             float _distance = cameraOffset.z;
             RaycastHit _hit;
 
-            if (Physics.Raycast(pivot.position , pivot.forward * -1, out _hit, (_distance + 0.5f)))
+            if (Physics.Raycast(pivPos, pivot.forward * -1, out _hit, (_distance + 0.5f)))
                 {
-                Debug.DrawLine(pivot.position, _hit.point);
+                Debug.DrawLine(pivPos, _hit.point);
+                //Debug.Log(pivPos);
                 distanceOffset = cameraOffset.z - _hit.distance + 0.8f;
                 distanceOffset = Mathf.Clamp(distanceOffset, 0, cameraOffset.z);
 

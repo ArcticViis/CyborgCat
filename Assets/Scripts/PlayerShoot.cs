@@ -5,6 +5,7 @@ public class PlayerShoot : MonoBehaviour {
 
 
     public GameObject projectilePrefab;
+    public Transform aimTarget;
     public Transform tube;
     public Transform pipe;
     private Vector3 aim = Vector3.zero;
@@ -12,7 +13,7 @@ public class PlayerShoot : MonoBehaviour {
     public Transform followCross;
     public float damp = 1;
 
-
+    public LineRenderer line;
 	// Use this for initialization
 	void Start () {
         
@@ -26,8 +27,15 @@ public class PlayerShoot : MonoBehaviour {
         if (Input.GetButtonDown("Fire1"))
         {
             StopCoroutine("Shoot");
+            
             StartCoroutine(Shoot(2f, 3f));
+        } 
+        if(Input.GetButton("Fire1"))
+        {
+            line.enabled = true;
         }
+        else
+        { line.enabled = false; }
         
     }
 
@@ -36,7 +44,7 @@ public class PlayerShoot : MonoBehaviour {
         AimAt();
 
 
-        tube.LookAt(aim);
+        tube.LookAt(aimTarget);
         tube.Rotate(Vector3.right, 90);
 
         followCrossfunc();
@@ -56,6 +64,10 @@ public class PlayerShoot : MonoBehaviour {
         {
             aim = Camera.main.transform.position + Camera.main.transform.forward * 300;
         }
+        aimTarget.position = Vector3.Lerp(aimTarget.position, aim, 1);
+
+        line.SetPosition(0, pipe.position);
+        line.SetPosition(1, aimTarget.position);
     }
 
     void followCrossfunc()
@@ -77,17 +89,18 @@ public class PlayerShoot : MonoBehaviour {
         }
     }
 
-    private void shootProjectile()
-    {
-        GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90, 0, 0)) as GameObject;
-        instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
-    }
+    //private void shootProjectile()
+    //{
+    //    GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90, 0, 0)) as GameObject;
+    //    instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
+    //}
     private IEnumerator Shoot( float _chargeTime, float _waitTime)
     {
-
+        
         float _timeElapsed = 0;
         while (Input.GetButton("Fire1") && _chargeTime > _timeElapsed)
         {
+            
             _timeElapsed += Time.fixedDeltaTime;
             //Debug.Log("Charging");
             yield return new WaitForFixedUpdate();
@@ -100,7 +113,7 @@ public class PlayerShoot : MonoBehaviour {
         else
         {
             Debug.Log("Firing");
-            shootProjectile();
+            //shootProjectile();
         }
         yield return new WaitForSeconds(_waitTime);
     }

@@ -3,7 +3,7 @@ using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour {
-
+    #region Variables
     private CharacterController cc;
     private Rigidbody rb;
 
@@ -15,23 +15,27 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float sneakMS = 3f;
     [SerializeField]
-    private float jumpPower = 5f;
+    private float climbMS = 3f;
+    [SerializeField]
+    private float jumpPower = 0f;
 
-    private bool falling
+    private bool falling;
 
-
+    public bool climbing = false;
+    #endregion
 
     // Use this for initialization
     void Start () {
         cc = GetComponent<CharacterController>();
-        rb = GetComponent<Rigidbody>();
+        //rb = GetComponent<Rigidbody>();
+        falling = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Movement();
-        
-
+        if(!climbing) Movement();
+        if (climbing) Climbing();
+        Turning();
     }
 
     private void Movement()
@@ -43,26 +47,47 @@ public class PlayerController : MonoBehaviour {
             _movementSpeed = runMS;
         }
 
-
-
         Vector3 _forward = Input.GetAxisRaw("Vertical") * transform.forward;
         Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
-
         Vector3 _movement = (_forward + _right).normalized * _movementSpeed;
-        cc.SimpleMove(_movement);
 
+        #region Jumpstuff
         if (!cc.isGrounded)
         {
-            
+            falling = true;
+            jumpPower -= (9.81f * Time.deltaTime);
         }
 
-        if(cc.isGrounded && Input.GetButtonDown("Jump"))
+        if (cc.isGrounded)
         {
-            rb.AddForce(Vector3.up * jumpPower, ForceMode.VelocityChange);
-            Debug.Log("hump");
+            jumpPower = 0f;
         }
+
+        if(Input.GetButton("Jump") && cc.isGrounded)
+        {
+            Debug.Log("jump");
+            jumpPower = 5f;
+        }
+        #endregion
+
+        cc.Move((_movement + Vector3.up * jumpPower ) * Time.deltaTime);
+        
+
+        
     }
 
+    private void Climbing()
+    {
+        Vector3 _up = Input.GetAxisRaw("Vertical") * transform.up;
+        Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
+        Vector3 _movement = (_up + _right).normalized * climbMS;
+        cc.Move(_movement * Time.deltaTime);
+    }
+    private void Turning()
+    {
+        float _rotationY = Input.GetAxisRaw("Mouse X");
+        transform.Rotate(new Vector3(0, _rotationY * 3f, 0));
+    }
     private float simGravity(float _time)
     {
         float _start = -1;
