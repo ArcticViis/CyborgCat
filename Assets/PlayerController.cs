@@ -12,14 +12,14 @@ public class PlayerController : MonoBehaviour {
     private float runMS = 10f;
     [SerializeField]
     private float walkMS = 6f;  // says walk, means jog
-    [SerializeField]
-    private float sneakMS = 3f;
+    //[SerializeField]
+    //private float sneakMS = 3f;
     [SerializeField]
     private float climbMS = 3f;
     [SerializeField]
     private float jumpPower = 0f;
 
-    private bool falling;
+
 
     public bool climbing = false;
     #endregion
@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
     void Start () {
         cc = GetComponent<CharacterController>();
         //rb = GetComponent<Rigidbody>();
-        falling = false;
+
 	}
 	
 	// Update is called once per frame
@@ -54,7 +54,7 @@ public class PlayerController : MonoBehaviour {
         #region Jumpstuff
         if (!cc.isGrounded)
         {
-            falling = true;
+
             jumpPower -= (9.81f * Time.deltaTime);
         }
 

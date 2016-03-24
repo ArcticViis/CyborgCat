@@ -34,11 +34,11 @@ namespace Werecat
         [SerializeField]
         private float maxFOV = 70f;
         [SerializeField]
-        private float fovChangeSpeed = 0.2f;
+        //private float fovChangeSpeed = 0.2f;
 
 
         private Camera cam;
-        private Rigidbody rb;
+        //private Rigidbody rb;
 
 
         private float cameraXRotation = 0f;
@@ -46,7 +46,7 @@ namespace Werecat
         void Start()
         {
             cam = Camera.main;
-            rb = GetComponent<Rigidbody>();
+            //rb = GetComponent<Rigidbody>();
             privcameraOffset = cameraOffset;
         }
 

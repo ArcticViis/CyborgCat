@@ -15,7 +15,7 @@ public class climController : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.tag == "Player");
+        //Debug.Log(other.tag == "Player");
         if (other.tag == "Player")
         {
             player.GetComponent<PlayerController>().climbing = true;
@@ -24,7 +24,7 @@ public class climController : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        Debug.Log(other.tag == "Player");
+        //Debug.Log(other.tag == "Player");
         if (other.tag == "Player")
         {
             player.GetComponent<PlayerController>().climbing = false;

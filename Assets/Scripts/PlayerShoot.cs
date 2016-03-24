@@ -73,7 +73,7 @@ public class PlayerShoot : MonoBehaviour {
     void followCrossfunc()
     {
 
-        Vector3 _aim = Vector3.zero;
+        //Vector3 _aim = Vector3.zero;
         Ray ray = new Ray(tube.position, pipe.up);
         RaycastHit _hit;
         int layermask = 1 << 8;
