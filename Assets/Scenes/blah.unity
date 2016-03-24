@@ -1099,6 +1099,7 @@ GameObject:
   - 114: {fileID: 1495541468}
   - 114: {fileID: 1495541472}
   - 114: {fileID: 1495541473}
+  - 114: {fileID: 1495541474}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1197,6 +1198,17 @@ MonoBehaviour:
   tube: {fileID: 34661075}
   pipe: {fileID: 1071784705}
   bulletVelo: 5000
+--- !u!114 &1495541474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1495541467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91db8485e1cec9545ad2f98bf20c3c87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1529964361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,7 +1378,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 2bc70f4cc2176bc4a932a03cb481042e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.19309814
+      value: -0.19309813
       objectReference: {fileID: 0}
     - target: {fileID: 400054, guid: 2bc70f4cc2176bc4a932a03cb481042e, type: 3}
       propertyPath: m_LocalRotation.y
