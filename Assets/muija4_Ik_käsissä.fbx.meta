@@ -1,0 +1,3346 @@
+fileFormatVersion: 2
+guid: dfae0eb1d138eb642943181976ff199f
+timeCreated: 1459436225
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: "Alak\xE4si oikea"
+    100002: "Alak\xE4si vasen"
+    100004: Armature
+    100006: Camera
+    100008: Circle.002
+    100010: Circle.003
+    100012: Cube
+    100014: Jalka CTRL OIKEA
+    100016: Jalka CTRL VASEN
+    100018: Jalka Muoto OIKEA
+    100020: Jalka Muoto VASEN
+    100022: Jalka Roll Ctrl OIKEA
+    100024: Jalka Roll Ctrl OIKEA_end
+    100026: Jalka Roll Ctrl VASEN
+    100028: Jalka Roll Ctrl VASEN_end
+    100030: Kanta ROLL OIKEA
+    100032: Kanta ROLL VASEN
+    100034: Kaula
+    100036: "K\xE4mmen OIKEA"
+    100038: "K\xE4mmen oikea"
+    100040: "K\xE4mmen oikea.001"
+    100042: "K\xE4mmen oikea.001_end"
+    100044: "K\xE4mmen oikea_end"
+    100046: "K\xE4mmen VASEN"
+    100048: "K\xE4mmen vasen"
+    100050: "K\xE4mmen vasen.001"
+    100052: "K\xE4mmen vasen.001_end"
+    100054: "K\xE4mmen vasen_end"
+    100056: "K\xE4si 1 OIKEA"
+    100058: "K\xE4si 1 VASEN"
+    100060: "K\xE4si 2 OIKEA"
+    100062: "K\xE4si 2 VASEN"
+    100064: Lamp
+    100066: //RootNode
+    100068: Oikea ala jalka
+    100070: "Oikea jalkater\xE4"
+    100072: "Oikea jalkater\xE4 IKL"
+    100074: "Oikea jalkater\xE4 IKL_end"
+    100076: "Oikea jalkater\xE4_end"
+    100078: "Oikea yl\xE4jalka"
+    100080: "Olkap\xE4\xE4 Oikea"
+    100082: "Olkap\xE4\xE4 Vasen"
+    100084: Polvi CTRL OIKEA
+    100086: Polvi CTRL OIKEA_end
+    100088: Polvi CTRL VASEN
+    100090: Polvi CTRL VASEN_end
+    100092: Polvi Muoto OIKEA
+    100094: Polvi Muoto VASEN
+    100096: "P\xE4\xE4"
+    100098: "P\xE4\xE4 1"
+    100100: "P\xE4\xE4_end"
+    100102: "Selk\xE4 ala"
+    100104: "Selk\xE4 ala controll"
+    100106: "Selk\xE4 ala.002"
+    100108: "Selk\xE4 yl\xE4"
+    100110: Solisluu oikea
+    100112: Solisluu vasen
+    100114: Tissit
+    100116: Varvas Roll oikea
+    100118: Varvas Roll VASEN
+    100120: Vasen Ala jalka
+    100122: "Vasen jalkater\xE4"
+    100124: "Vasen jalkater\xE4 IKL"
+    100126: "Vasen jalkater\xE4 IKL_end"
+    100128: "Vasen jalkater\xE4_end"
+    100130: "Vasen yl\xE4Jalka"
+    100132: "Yl\xE4k\xE4si oikea"
+    100134: "Yl\xE4k\xE4si vasen"
+    400000: "Alak\xE4si oikea"
+    400002: "Alak\xE4si vasen"
+    400004: Armature
+    400006: Camera
+    400008: Circle.002
+    400010: Circle.003
+    400012: Cube
+    400014: Jalka CTRL OIKEA
+    400016: Jalka CTRL VASEN
+    400018: Jalka Muoto OIKEA
+    400020: Jalka Muoto VASEN
+    400022: Jalka Roll Ctrl OIKEA
+    400024: Jalka Roll Ctrl OIKEA_end
+    400026: Jalka Roll Ctrl VASEN
+    400028: Jalka Roll Ctrl VASEN_end
+    400030: Kanta ROLL OIKEA
+    400032: Kanta ROLL VASEN
+    400034: Kaula
+    400036: "K\xE4mmen OIKEA"
+    400038: "K\xE4mmen oikea"
+    400040: "K\xE4mmen oikea.001"
+    400042: "K\xE4mmen oikea.001_end"
+    400044: "K\xE4mmen oikea_end"
+    400046: "K\xE4mmen VASEN"
+    400048: "K\xE4mmen vasen"
+    400050: "K\xE4mmen vasen.001"
+    400052: "K\xE4mmen vasen.001_end"
+    400054: "K\xE4mmen vasen_end"
+    400056: "K\xE4si 1 OIKEA"
+    400058: "K\xE4si 1 VASEN"
+    400060: "K\xE4si 2 OIKEA"
+    400062: "K\xE4si 2 VASEN"
+    400064: Lamp
+    400066: //RootNode
+    400068: Oikea ala jalka
+    400070: "Oikea jalkater\xE4"
+    400072: "Oikea jalkater\xE4 IKL"
+    400074: "Oikea jalkater\xE4 IKL_end"
+    400076: "Oikea jalkater\xE4_end"
+    400078: "Oikea yl\xE4jalka"
+    400080: "Olkap\xE4\xE4 Oikea"
+    400082: "Olkap\xE4\xE4 Vasen"
+    400084: Polvi CTRL OIKEA
+    400086: Polvi CTRL OIKEA_end
+    400088: Polvi CTRL VASEN
+    400090: Polvi CTRL VASEN_end
+    400092: Polvi Muoto OIKEA
+    400094: Polvi Muoto VASEN
+    400096: "P\xE4\xE4"
+    400098: "P\xE4\xE4 1"
+    400100: "P\xE4\xE4_end"
+    400102: "Selk\xE4 ala"
+    400104: "Selk\xE4 ala controll"
+    400106: "Selk\xE4 ala.002"
+    400108: "Selk\xE4 yl\xE4"
+    400110: Solisluu oikea
+    400112: Solisluu vasen
+    400114: Tissit
+    400116: Varvas Roll oikea
+    400118: Varvas Roll VASEN
+    400120: Vasen Ala jalka
+    400122: "Vasen jalkater\xE4"
+    400124: "Vasen jalkater\xE4 IKL"
+    400126: "Vasen jalkater\xE4 IKL_end"
+    400128: "Vasen jalkater\xE4_end"
+    400130: "Vasen yl\xE4Jalka"
+    400132: "Yl\xE4k\xE4si oikea"
+    400134: "Yl\xE4k\xE4si vasen"
+    2300000: Circle.002
+    2300002: Circle.003
+    2300004: Jalka Muoto OIKEA
+    2300006: Jalka Muoto VASEN
+    2300008: "K\xE4mmen OIKEA"
+    2300010: "K\xE4mmen VASEN"
+    2300012: "K\xE4si 1 OIKEA"
+    2300014: "K\xE4si 1 VASEN"
+    2300016: "K\xE4si 2 OIKEA"
+    2300018: "K\xE4si 2 VASEN"
+    2300020: "Olkap\xE4\xE4 Oikea"
+    2300022: "Olkap\xE4\xE4 Vasen"
+    2300024: Polvi Muoto OIKEA
+    2300026: Polvi Muoto VASEN
+    2300028: "P\xE4\xE4"
+    2300030: Tissit
+    3300000: Circle.002
+    3300002: Circle.003
+    3300004: Jalka Muoto OIKEA
+    3300006: Jalka Muoto VASEN
+    3300008: "K\xE4mmen OIKEA"
+    3300010: "K\xE4mmen VASEN"
+    3300012: "K\xE4si 1 OIKEA"
+    3300014: "K\xE4si 1 VASEN"
+    3300016: "K\xE4si 2 OIKEA"
+    3300018: "K\xE4si 2 VASEN"
+    3300020: "Olkap\xE4\xE4 Oikea"
+    3300022: "Olkap\xE4\xE4 Vasen"
+    3300024: Polvi Muoto OIKEA
+    3300026: Polvi Muoto VASEN
+    3300028: "P\xE4\xE4"
+    3300030: Tissit
+    4300000: Polvi Muoto OIKEA
+    4300002: Jalka Muoto OIKEA
+    4300004: "K\xE4mmen OIKEA"
+    4300006: "K\xE4si 2 OIKEA"
+    4300008: "K\xE4si 1 OIKEA"
+    4300010: "Olkap\xE4\xE4 Oikea"
+    4300012: "K\xE4mmen VASEN"
+    4300014: "K\xE4si 2 VASEN"
+    4300016: "K\xE4si 1 VASEN"
+    4300018: "Olkap\xE4\xE4 Vasen"
+    4300020: "P\xE4\xE4"
+    4300022: Tissit
+    4300024: Circle.003
+    4300026: Circle.002
+    4300028: Polvi Muoto VASEN
+    4300030: Jalka Muoto VASEN
+    4300032: Cube
+    7400000: Armature|ArmatureAction
+    7400002: Armature|Idle
+    7400004: Armature|Idle aseen kanssa
+    7400006: Armature|Idle.001
+    7400008: Armature|Idle.002
+    7400010: Armature|Idle.003
+    7400012: Armature|jumping
+    7400014: Armature|Running
+    7400016: Armature|Running.001
+    7400018: Armature|Strafetus vasemmalle
+    7400020: Armature|Strafetus vasemmalle.001
+    7400022: Armature|Walking
+    7400024: Armature|Walking Backwards
+    7400026: Armature|Walking bacwards
+    7400028: Armature|Walking.001
+    7400030: Armature|Walking0
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle
+      takeName: Armature|Idle
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle aseen kanssa
+      takeName: Armature|Idle aseen kanssa
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle.001
+      takeName: Armature|Idle.001
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle.002
+      takeName: Armature|Idle.002
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Idle.003
+      takeName: Armature|Idle.003
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|jumping
+      takeName: Armature|jumping
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running
+      takeName: Armature|Running
+      firstFrame: 0
+      lastFrame: 195
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Running.001
+      takeName: Armature|Running.001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Strafetus vasemmalle
+      takeName: Armature|Strafetus vasemmalle
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Strafetus vasemmalle.001
+      takeName: Armature|Strafetus vasemmalle.001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walking
+      takeName: Armature|Walking
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walking Backwards
+      takeName: Armature|Walking Backwards
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walking bacwards
+      takeName: Armature|Walking bacwards
+      firstFrame: 0
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walking.001
+      takeName: Armature|Walking.001
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walking0
+      takeName: Armature|Walking
+      firstFrame: 0
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Jalka Roll Ctrl OIKEA/Jalka Roll Ctrl OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL OIKEA/Kanta ROLL OIKEA/Varvas Roll oikea/Oikea
+          jalkater\xE4 IKL/Oikea jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA
+        weight: 1
+      - path: Armature/Jalka CTRL OIKEA/Polvi CTRL OIKEA/Polvi CTRL OIKEA_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Jalka Roll Ctrl VASEN/Jalka Roll Ctrl VASEN_end
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL"
+        weight: 1
+      - path: "Armature/Jalka CTRL VASEN/Kanta ROLL VASEN/Varvas Roll VASEN/Vasen
+          jalkater\xE4 IKL/Vasen jalkater\xE4 IKL_end"
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN
+        weight: 1
+      - path: Armature/Jalka CTRL VASEN/Polvi CTRL VASEN/Polvi CTRL VASEN_end
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen oikea.001/K\xE4mmen
+          oikea.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/K\xE4mmen vasen.001/K\xE4mmen
+          vasen.001_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Oikea yl\xE4jalka/Vasen
+          Ala jalka/Oikea jalkater\xE4/Oikea jalkater\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Kaula/P\xE4\xE4 1/P\xE4\xE4_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu oikea/Yl\xE4k\xE4si oikea/Alak\xE4si oikea/K\xE4mmen oikea/K\xE4mmen
+          oikea_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Selk\xE4 ala.002/Selk\xE4
+          yl\xE4/Solisluu vasen/Yl\xE4k\xE4si vasen/Alak\xE4si vasen/K\xE4mmen vasen/K\xE4mmen
+          vasen_end"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4"
+        weight: 1
+      - path: "Armature/Selk\xE4 ala controll/Selk\xE4 ala/Vasen yl\xE4Jalka/Oikea
+          ala jalka/Vasen jalkater\xE4/Vasen jalkater\xE4_end"
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle.002
+        weight: 1
+      - path: Circle.003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka Muoto OIKEA
+        weight: 1
+      - path: Jalka Muoto VASEN
+        weight: 1
+      - path: "K\xE4mmen OIKEA"
+        weight: 1
+      - path: "K\xE4mmen VASEN"
+        weight: 1
+      - path: "K\xE4si 1 OIKEA"
+        weight: 1
+      - path: "K\xE4si 1 VASEN"
+        weight: 1
+      - path: "K\xE4si 2 OIKEA"
+        weight: 1
+      - path: "K\xE4si 2 VASEN"
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: "Olkap\xE4\xE4 Oikea"
+        weight: 1
+      - path: "Olkap\xE4\xE4 Vasen"
+        weight: 1
+      - path: Polvi Muoto OIKEA
+        weight: 1
+      - path: Polvi Muoto VASEN
+        weight: 1
+      - path: "P\xE4\xE4"
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

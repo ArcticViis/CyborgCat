@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: d23c19d6bc60ded43b7bed0bb2478997
-timeCreated: 1458836907
+guid: aa34bc32d646ee542b1d419418743247
+timeCreated: 1459340059
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -19,43 +19,45 @@ ModelImporter:
     100022: Jalka_Roll_Ctrl_VASEN
     100024: K_mmen_OIKEA
     100026: K_mmen_oikea
-    100028: K_mmen_VASEN
-    100030: K_mmen_vasen
-    100032: K_si_1_OIKEA
-    100034: K_si_1_VASEN
-    100036: K_si_2_OIKEA
-    100038: K_si_2_VASEN
-    100040: Kanta_ROLL_OIKEA
-    100042: Kanta_ROLL_VASEN
-    100044: Kaula
-    100046: //RootNode
-    100048: Oikea_ala_jalka
-    100050: Oikea_jalkater_
-    100052: Oikea_jalkater__IKL
-    100054: Oikea_yl_jalka
-    100056: Olkap___Oikea
-    100058: Olkap___Vasen
-    100060: P__
-    100062: P___0
-    100064: Polvi_CTRL_OIKEA
-    100066: Polvi_CTRL_VASEN
-    100068: Polvi_Muoto_OIKEA
-    100070: Polvi_Muoto_VASEN
-    100072: Selk__ala
-    100074: Selk__ala_002
-    100076: Selk__ala_controll
-    100078: Selk__yl_
-    100080: Solisluu_oikea
-    100082: Solisluu_vasen
-    100084: Tissit
-    100086: Varvas_Roll_oikea
-    100088: Varvas_Roll_VASEN
-    100090: Vasen_Ala_jalka
-    100092: Vasen_jalkater_
-    100094: Vasen_jalkater__IKL
-    100096: Vasen_yl_Jalka
-    100098: Yl_k_si_oikea
-    100100: Yl_k_si_vasen
+    100028: K_mmen_oikea_001
+    100030: K_mmen_VASEN
+    100032: K_mmen_vasen
+    100034: K_mmen_vasen_001
+    100036: K_si_1_OIKEA
+    100038: K_si_1_VASEN
+    100040: K_si_2_OIKEA
+    100042: K_si_2_VASEN
+    100044: Kanta_ROLL_OIKEA
+    100046: Kanta_ROLL_VASEN
+    100048: Kaula
+    100050: //RootNode
+    100052: Oikea_ala_jalka
+    100054: Oikea_jalkater_
+    100056: Oikea_jalkater__IKL
+    100058: Oikea_yl_jalka
+    100060: Olkap___Oikea
+    100062: Olkap___Vasen
+    100064: P__
+    100066: P___0
+    100068: Polvi_CTRL_OIKEA
+    100070: Polvi_CTRL_VASEN
+    100072: Polvi_Muoto_OIKEA
+    100074: Polvi_Muoto_VASEN
+    100076: Selk__ala
+    100078: Selk__ala_002
+    100080: Selk__ala_controll
+    100082: Selk__yl_
+    100084: Solisluu_oikea
+    100086: Solisluu_vasen
+    100088: Tissit
+    100090: Varvas_Roll_oikea
+    100092: Varvas_Roll_VASEN
+    100094: Vasen_Ala_jalka
+    100096: Vasen_jalkater_
+    100098: Vasen_jalkater__IKL
+    100100: Vasen_yl_Jalka
+    100102: Yl_k_si_oikea
+    100104: Yl_k_si_vasen
     400000: Alak_si_oikea
     400002: Alak_si_vasen
     400004: Armature
@@ -70,43 +72,45 @@ ModelImporter:
     400022: Jalka_Roll_Ctrl_VASEN
     400024: K_mmen_OIKEA
     400026: K_mmen_oikea
-    400028: K_mmen_VASEN
-    400030: K_mmen_vasen
-    400032: K_si_1_OIKEA
-    400034: K_si_1_VASEN
-    400036: K_si_2_OIKEA
-    400038: K_si_2_VASEN
-    400040: Kanta_ROLL_OIKEA
-    400042: Kanta_ROLL_VASEN
-    400044: Kaula
-    400046: //RootNode
-    400048: Oikea_ala_jalka
-    400050: Oikea_jalkater_
-    400052: Oikea_jalkater__IKL
-    400054: Oikea_yl_jalka
-    400056: Olkap___Oikea
-    400058: Olkap___Vasen
-    400060: P__
-    400062: P___0
-    400064: Polvi_CTRL_OIKEA
-    400066: Polvi_CTRL_VASEN
-    400068: Polvi_Muoto_OIKEA
-    400070: Polvi_Muoto_VASEN
-    400072: Selk__ala
-    400074: Selk__ala_002
-    400076: Selk__ala_controll
-    400078: Selk__yl_
-    400080: Solisluu_oikea
-    400082: Solisluu_vasen
-    400084: Tissit
-    400086: Varvas_Roll_oikea
-    400088: Varvas_Roll_VASEN
-    400090: Vasen_Ala_jalka
-    400092: Vasen_jalkater_
-    400094: Vasen_jalkater__IKL
-    400096: Vasen_yl_Jalka
-    400098: Yl_k_si_oikea
-    400100: Yl_k_si_vasen
+    400028: K_mmen_oikea_001
+    400030: K_mmen_VASEN
+    400032: K_mmen_vasen
+    400034: K_mmen_vasen_001
+    400036: K_si_1_OIKEA
+    400038: K_si_1_VASEN
+    400040: K_si_2_OIKEA
+    400042: K_si_2_VASEN
+    400044: Kanta_ROLL_OIKEA
+    400046: Kanta_ROLL_VASEN
+    400048: Kaula
+    400050: //RootNode
+    400052: Oikea_ala_jalka
+    400054: Oikea_jalkater_
+    400056: Oikea_jalkater__IKL
+    400058: Oikea_yl_jalka
+    400060: Olkap___Oikea
+    400062: Olkap___Vasen
+    400064: P__
+    400066: P___0
+    400068: Polvi_CTRL_OIKEA
+    400070: Polvi_CTRL_VASEN
+    400072: Polvi_Muoto_OIKEA
+    400074: Polvi_Muoto_VASEN
+    400076: Selk__ala
+    400078: Selk__ala_002
+    400080: Selk__ala_controll
+    400082: Selk__yl_
+    400084: Solisluu_oikea
+    400086: Solisluu_vasen
+    400088: Tissit
+    400090: Varvas_Roll_oikea
+    400092: Varvas_Roll_VASEN
+    400094: Vasen_Ala_jalka
+    400096: Vasen_jalkater_
+    400098: Vasen_jalkater__IKL
+    400100: Vasen_yl_Jalka
+    400102: Yl_k_si_oikea
+    400104: Yl_k_si_vasen
     2300000: Circle_002
     2300002: Circle_003
     2300004: Jalka_Muoto_OIKEA
@@ -159,17 +163,19 @@ ModelImporter:
     7400000: Default Take
     7400002: ArmatureAction
     7400004: Idle
-    7400006: Idle_001
-    7400008: Idle_002
-    7400010: Idle_003
-    7400012: Running
-    7400014: Running_001
-    7400016: Walking
-    7400018: Walking_Backwards
-    7400020: Strafetus_vasemmalle_001
-    7400022: Default Take0
-    7400024: jumping
-    7400026: Walking Backwards
+    7400006: Idle_aseen_kanssa
+    7400008: Idle_001
+    7400010: Idle_002
+    7400012: Idle_003
+    7400014: jumping
+    7400016: Running
+    7400018: Running_001
+    7400020: Strafetus_vasemmalle
+    7400022: Strafetus_vasemmalle_001
+    7400024: Walking
+    7400026: Walking_Backwards
+    7400028: Walking_bacwards
+    7400030: Walking_001
     9500000: //RootNode
     13700000: Cube
   materials:
@@ -196,7 +202,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Default Take
       takeName: Default Take
-      firstFrame: 10.4
+      firstFrame: -1
       lastFrame: 32
       wrapMode: 0
       orientationOffsetY: 0
@@ -204,7 +210,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -249,6 +255,10 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -380,6 +390,10 @@ ModelImporter:
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
         weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
@@ -509,6 +523,144 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Circle_003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka_Muoto_OIKEA
+        weight: 1
+      - path: Jalka_Muoto_VASEN
+        weight: 1
+      - path: K_mmen_OIKEA
+        weight: 1
+      - path: K_mmen_VASEN
+        weight: 1
+      - path: K_si_1_OIKEA
+        weight: 1
+      - path: K_si_1_VASEN
+        weight: 1
+      - path: K_si_2_OIKEA
+        weight: 1
+      - path: K_si_2_VASEN
+        weight: 1
+      - path: Olkap___Oikea
+        weight: 1
+      - path: Olkap___Vasen
+        weight: 1
+      - path: P__
+        weight: 1
+      - path: Polvi_Muoto_OIKEA
+        weight: 1
+      - path: Polvi_Muoto_VASEN
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle_aseen_kanssa
+      takeName: Idle_aseen_kanssa
+      firstFrame: -1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
+        weight: 1
+      - path: Armature/Selk__ala_controll
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -640,6 +792,10 @@ ModelImporter:
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
         weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
@@ -769,6 +925,10 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -900,6 +1060,144 @@ ModelImporter:
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
         weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Circle_003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka_Muoto_OIKEA
+        weight: 1
+      - path: Jalka_Muoto_VASEN
+        weight: 1
+      - path: K_mmen_OIKEA
+        weight: 1
+      - path: K_mmen_VASEN
+        weight: 1
+      - path: K_si_1_OIKEA
+        weight: 1
+      - path: K_si_1_VASEN
+        weight: 1
+      - path: K_si_2_OIKEA
+        weight: 1
+      - path: K_si_2_VASEN
+        weight: 1
+      - path: Olkap___Oikea
+        weight: 1
+      - path: Olkap___Vasen
+        weight: 1
+      - path: P__
+        weight: 1
+      - path: Polvi_Muoto_OIKEA
+        weight: 1
+      - path: Polvi_Muoto_VASEN
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumping
+      takeName: jumping
+      firstFrame: 6.6000004
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
+        weight: 1
+      - path: Armature/Selk__ala_controll
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
@@ -1030,6 +1328,10 @@ ModelImporter:
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
         weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
@@ -1114,7 +1416,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1159,6 +1461,278 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Circle_003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka_Muoto_OIKEA
+        weight: 1
+      - path: Jalka_Muoto_VASEN
+        weight: 1
+      - path: K_mmen_OIKEA
+        weight: 1
+      - path: K_mmen_VASEN
+        weight: 1
+      - path: K_si_1_OIKEA
+        weight: 1
+      - path: K_si_1_VASEN
+        weight: 1
+      - path: K_si_2_OIKEA
+        weight: 1
+      - path: K_si_2_VASEN
+        weight: 1
+      - path: Olkap___Oikea
+        weight: 1
+      - path: Olkap___Vasen
+        weight: 1
+      - path: P__
+        weight: 1
+      - path: Polvi_Muoto_OIKEA
+        weight: 1
+      - path: Polvi_Muoto_VASEN
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafetus_vasemmalle
+      takeName: Strafetus_vasemmalle
+      firstFrame: -1
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
+        weight: 1
+      - path: Armature/Selk__ala_controll
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
+        weight: 1
+      - path: Circle_002
+        weight: 1
+      - path: Circle_003
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Jalka_Muoto_OIKEA
+        weight: 1
+      - path: Jalka_Muoto_VASEN
+        weight: 1
+      - path: K_mmen_OIKEA
+        weight: 1
+      - path: K_mmen_VASEN
+        weight: 1
+      - path: K_si_1_OIKEA
+        weight: 1
+      - path: K_si_1_VASEN
+        weight: 1
+      - path: K_si_2_OIKEA
+        weight: 1
+      - path: K_si_2_VASEN
+        weight: 1
+      - path: Olkap___Oikea
+        weight: 1
+      - path: Olkap___Vasen
+        weight: 1
+      - path: P__
+        weight: 1
+      - path: Polvi_Muoto_OIKEA
+        weight: 1
+      - path: Polvi_Muoto_VASEN
+        weight: 1
+      - path: Tissit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Strafetus_vasemmalle_001
+      takeName: Strafetus_vasemmalle_001
+      firstFrame: -1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
+        weight: 1
+      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
+        weight: 1
+      - path: Armature/Selk__ala_controll
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -1244,7 +1818,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1289,6 +1863,10 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -1374,7 +1952,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1419,6 +1997,10 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -1494,140 +2076,10 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Strafetus_vasemmalle_001
-      takeName: Strafetus_vasemmalle_001
+      name: Walking_bacwards
+      takeName: Walking_bacwards
       firstFrame: -1
-      lastFrame: 32
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
-        weight: 1
-      - path: Armature/Selk__ala_controll
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
-        weight: 1
-      - path: Circle_002
-        weight: 1
-      - path: Circle_003
-        weight: 1
-      - path: Cube
-        weight: 1
-      - path: Jalka_Muoto_OIKEA
-        weight: 1
-      - path: Jalka_Muoto_VASEN
-        weight: 1
-      - path: K_mmen_OIKEA
-        weight: 1
-      - path: K_mmen_VASEN
-        weight: 1
-      - path: K_si_1_OIKEA
-        weight: 1
-      - path: K_si_1_VASEN
-        weight: 1
-      - path: K_si_2_OIKEA
-        weight: 1
-      - path: K_si_2_VASEN
-        weight: 1
-      - path: Olkap___Oikea
-        weight: 1
-      - path: Olkap___Vasen
-        weight: 1
-      - path: P__
-        weight: 1
-      - path: Polvi_Muoto_OIKEA
-        weight: 1
-      - path: Polvi_Muoto_VASEN
-        weight: 1
-      - path: Tissit
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Default Take0
-      takeName: Default Take
-      firstFrame: -1
-      lastFrame: 32
+      lastFrame: 82
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1680,135 +2132,9 @@ ModelImporter:
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
         weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
         weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka/Vasen_Ala_jalka/Oikea_jalkater_
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Kaula/P___0
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_oikea/Yl_k_si_oikea/Alak_si_oikea/K_mmen_oikea
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Selk__ala_002/Selk__yl_/Solisluu_vasen/Yl_k_si_vasen/Alak_si_vasen/K_mmen_vasen
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala/Vasen_yl_Jalka/Oikea_ala_jalka/Vasen_jalkater_
-        weight: 1
-      - path: Circle_002
-        weight: 1
-      - path: Circle_003
-        weight: 1
-      - path: Cube
-        weight: 1
-      - path: Jalka_Muoto_OIKEA
-        weight: 1
-      - path: Jalka_Muoto_VASEN
-        weight: 1
-      - path: K_mmen_OIKEA
-        weight: 1
-      - path: K_mmen_VASEN
-        weight: 1
-      - path: K_si_1_OIKEA
-        weight: 1
-      - path: K_si_1_VASEN
-        weight: 1
-      - path: K_si_2_OIKEA
-        weight: 1
-      - path: K_si_2_VASEN
-        weight: 1
-      - path: Olkap___Oikea
-        weight: 1
-      - path: Olkap___Vasen
-        weight: 1
-      - path: P__
-        weight: 1
-      - path: Polvi_Muoto_OIKEA
-        weight: 1
-      - path: Polvi_Muoto_VASEN
-        weight: 1
-      - path: Tissit
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: jumping
-      takeName: jumping
-      firstFrame: 10.5
-      lastFrame: 32
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Armature
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Jalka_Roll_Ctrl_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Kanta_ROLL_OIKEA/Varvas_Roll_oikea/Oikea_jalkater__IKL
-        weight: 1
-      - path: Armature/Jalka_CTRL_OIKEA/Polvi_CTRL_OIKEA
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Jalka_Roll_Ctrl_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Kanta_ROLL_VASEN/Varvas_Roll_VASEN/Vasen_jalkater__IKL
-        weight: 1
-      - path: Armature/Jalka_CTRL_VASEN/Polvi_CTRL_VASEN
-        weight: 1
-      - path: Armature/Selk__ala_controll
-        weight: 1
-      - path: Armature/Selk__ala_controll/Selk__ala
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1
@@ -1884,7 +2210,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Walking Backwards
+      name: Walking_001
       takeName: Walking_001
       firstFrame: -1
       lastFrame: 32
@@ -1939,6 +2265,10 @@ ModelImporter:
       - path: Armature/Selk__ala_controll
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_oikea_001
+        weight: 1
+      - path: Armature/Selk__ala_controll/Selk__ala/K_mmen_vasen_001
         weight: 1
       - path: Armature/Selk__ala_controll/Selk__ala/Oikea_yl_jalka
         weight: 1

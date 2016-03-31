@@ -39,9 +39,15 @@ public class Player : MonoBehaviour {
 		}
 		/******STRAFING RIGHT******/
 		if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)) {
-			anim.SetBool ("StrafeL", true); 
+			anim.SetBool ("StrafeR", true); 
 		} else {
-			anim.SetBool ("StrafeL", false);
+			anim.SetBool ("StrafeR", false);
+		}
+		/*****JUMPING*******/
+		if (Input.GetKey (KeyCode.Space) /*|| (KeyCode.Space) && ((KeyCode.UpArrow) || (KeyCode.RightArrow) || (KeyCode.LeftArrow) || (KeyCode.DownArrow))*/) {
+			anim.SetBool ("Jump", true); 
+		} else {
+			anim.SetBool ("Jump", false);
 		}
 	}
 }
