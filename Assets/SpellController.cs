@@ -4,32 +4,47 @@ using System.Collections;
 public class SpellController : MonoBehaviour {
     private CharacterController cc;
     private GameObject player;
+    public Transform enemy;
+    private RaycastHit _rhit;
+    private Vector3 telePos;
+    public float teleportDistance = 25f;
 
-
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         cc = GetComponent<CharacterController>();
         player = gameObject;
+
 	}
 	
 	// Update is called once per frame
-
     void LateUpdate()
     {
-        NavMeshHit _hit;
-        bool hit = NavMesh.Raycast(player.transform.position + Vector3.up, Camera.main.transform.position + Camera.main.transform.forward * 150, out _hit, 0);
-
-
-        if (NavMesh.Raycast(player.transform.position + Vector3.up, Camera.main.transform.position + Camera.main.transform.forward * 150, out _hit, 0))
+        if (Input.GetKeyDown(KeyCode.F))
         {
-            Blink(_hit.position);
-            Debug.Log("hit");
-            
+            Blink(telePos);
         }
-        Debug.DrawLine(player.transform.position + Vector3.up, Camera.main.transform.position + Camera.main.transform.forward * 150, hit ? Color.red : Color.green);
+    }
+    void FixedUpdate()
+    {
+        
+        Debug.DrawLine(transform.position, transform.forward * teleportDistance);
+        if (Physics.CapsuleCast(Camera.main.transform.position + Camera.main.transform.forward * 3 - Vector3.up, Camera.main.transform.position + Vector3.up, 1.1f, Camera.main.transform.forward , out _rhit, teleportDistance))
+        {
+            //Debug.Log(_rhit.point);
+            telePos = _rhit.point;
+            Debug.DrawLine(transform.position, _rhit.point);
+            enemy.position = telePos;
+        }
+        else
+        {
+            telePos = Camera.main.transform.position + Camera.main.transform.forward * teleportDistance - Vector3.up ;
+            enemy.position = telePos;
+        }
+       
+        //Debug.DrawLine(player.transform.position + Vector3.up, Camera.main.transform.position + Camera.main.transform.forward * 150, hit ? Color.green : Color.red);
     }
     private void Blink(Vector3 _loc)
     {
-
+        transform.position = _loc;
     }
 }

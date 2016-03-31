@@ -26,13 +26,13 @@ public class PlayerShoot : MonoBehaviour {
         //Debug.DrawLine(pipe.position, aim);
         if (Input.GetButtonDown("Fire1"))
         {
-            StopCoroutine("Shoot");
-            
-            StartCoroutine(Shoot(2f, 3f));
+            //StopCoroutine("Shoot");
+            shootProjectile();
+            //StartCoroutine(Shoot(2f, 3f));
         } 
         if(Input.GetButton("Fire1"))
         {
-            line.enabled = true;
+            //line.enabled = true;
         }
         else
         { line.enabled = false; }
@@ -89,11 +89,11 @@ public class PlayerShoot : MonoBehaviour {
         }
     }
 
-    //private void shootProjectile()
-    //{
-    //    GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(90, 0, 0)) as GameObject;
-    //    instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
-    //}
+    private void shootProjectile()
+    {
+     GameObject instance = Instantiate(projectilePrefab, pipe.position, pipe.rotation * Quaternion.Euler(0, 0, 0)) as GameObject;
+        //instance.GetComponent<Rigidbody>().velocity = ((aim - pipe.position).normalized * bulletVelo);
+    }
     private IEnumerator Shoot( float _chargeTime, float _waitTime)
     {
         
