@@ -2,8 +2,8 @@
 using System.Collections;
 
 public class SpellController : MonoBehaviour {
-    private CharacterController cc;
-    private GameObject player;
+    //private CharacterController cc;
+    //private GameObject player;
     public Transform enemy;
     private RaycastHit _rhit;
     private Vector3 telePos;
@@ -11,8 +11,8 @@ public class SpellController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        cc = GetComponent<CharacterController>();
-        player = gameObject;
+        //cc = GetComponent<CharacterController>();
+        //player = gameObject;
 
 	}
 	
@@ -23,12 +23,9 @@ public class SpellController : MonoBehaviour {
         {
             Blink(telePos);
         }
-    }
-    void FixedUpdate()
-    {
-        
+    
         Debug.DrawLine(transform.position, transform.forward * teleportDistance);
-        if (Physics.CapsuleCast(Camera.main.transform.position + Camera.main.transform.forward * 3 - Vector3.up, Camera.main.transform.position + Vector3.up, 1.1f, Camera.main.transform.forward , out _rhit, teleportDistance))
+        if (Physics.CapsuleCast(Camera.main.transform.position + Camera.main.transform.forward * 6 - Vector3.up, Camera.main.transform.position + Vector3.up, 1.1f, Camera.main.transform.forward , out _rhit, teleportDistance))
         {
             //Debug.Log(_rhit.point);
             telePos = _rhit.point;

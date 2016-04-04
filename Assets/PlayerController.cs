@@ -36,8 +36,14 @@ public class PlayerController : MonoBehaviour {
         if(!climbing) Movement();
         if (climbing) Climbing();
         Turning();
-    }
 
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            Cursor.lockState = Cursor.lockState == CursorLockMode.None ? CursorLockMode.Locked : CursorLockMode.None;
+            Cursor.visible = !Cursor.visible;
+        }
+    }
+    
     private void Movement()
     {
         float _movementSpeed = walkMS;
@@ -72,8 +78,6 @@ public class PlayerController : MonoBehaviour {
 
         cc.Move((_movement + Vector3.up * jumpPower ) * Time.deltaTime);
         
-
-        
     }
 
     private void Climbing()
@@ -88,20 +92,5 @@ public class PlayerController : MonoBehaviour {
         float _rotationY = Input.GetAxisRaw("Mouse X");
         transform.Rotate(new Vector3(0, _rotationY * 3f, 0));
     }
-    private float simGravity(float _time)
-    {
-        float _start = -1;
-        if (_start == -1)
-        {
-            _start = _time;
-        }
-        else
-        {
-            _start += _time;
-        }
 
-        float _downward = 9.81f * Mathf.Pow(_start, 2f);
-
-        return _downward;
-    }
 }

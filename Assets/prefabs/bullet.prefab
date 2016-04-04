@@ -41,6 +41,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   muzzleVelocity: 200
+  lifeTime: 4
 --- !u!120 &12051448
 LineRenderer:
   m_ObjectHideFlags: 1
