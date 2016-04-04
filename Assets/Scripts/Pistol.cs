@@ -2,14 +2,14 @@
 using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]
-public class Rifle : MonoBehaviour
+public class Pistol : MonoBehaviour
 {
     [SerializeField]
     private float damage;
     [SerializeField]
-    private int ammoPool;
-    [SerializeField]
     private int maxAmmoPool;
+    [SerializeField]
+    private int ammoPool;
     [SerializeField]
     private int magazineSize;
     [SerializeField]
@@ -19,15 +19,15 @@ public class Rifle : MonoBehaviour
     [SerializeField]
     private float reloadTime;
 
-    public int AmmoPool { get { return ammoPool; }  }
-    public int CurrentAmmo { get { return currentAmmo; }}
-
+    public int AmmoPool { get { return ammoPool; } }
+    public int CurrentAmmo { get { return currentAmmo; } }
 
 
     [SerializeField]
     private GameObject bullet;
     [SerializeField]
     private Transform muzzle;
+    private Vector3 muzzleOut;
     [SerializeField]
     private AudioSource audioSource;
     [SerializeField]
@@ -42,7 +42,7 @@ public class Rifle : MonoBehaviour
     public Transform weaponPivot;
 
 
-    
+    // Use this for initialization
     void Start()
     {
         state = WeaponState.Idle;
@@ -52,6 +52,8 @@ public class Rifle : MonoBehaviour
 
     void Update()
     {
+        
+        
         if (Input.GetButtonDown("Fire1") || Input.GetKeyDown(KeyCode.R))
         {
             StartCoroutine(IEShoot());
@@ -61,55 +63,24 @@ public class Rifle : MonoBehaviour
         else if (Input.GetButtonUp("Fire1"))
         {
             StopCoroutine(IEShoot());
-        }
-    }
-
-    #region old firing
-    public void Fire()
-    {
-        if (state != WeaponState.Reload)
-        {
-            if (currentAmmo > 0)
+            if(state != WeaponState.Reload)
             {
-                state = WeaponState.Firing;
-                currentAmmo--;
-                audioSource.PlayOneShot(shootSound);
-                GameObject instance = Instantiate(bullet, muzzle.position, muzzle.rotation * Quaternion.Euler(0, 0, 0)) as GameObject;
+                state = WeaponState.Idle;
             }
-            else
-            {
-                Reload();
-                Invoke("Reload", reloadTime);
-            }
+
         }
-
-
     }
-
-    public void Reload()
+    void LateUpdate()
     {
-        if (state != WeaponState.Reload)
-        {
-            state = WeaponState.Reload;
-            audioSource.PlayOneShot(reloadSound);
-            ammoPool -= magazineSize - currentAmmo;
-            currentAmmo = magazineSize;
-        }
-        if (state == WeaponState.Reload)
-        {
-            state = WeaponState.Idle;
-        }
-
+        muzzleOut = muzzle.position;
     }
-    #endregion
 
     IEnumerator IEShoot()
     {
-
         #region test
         //Reload
         while ((
-                (Input.GetButton("Fire1") && currentAmmo == 0 )
+                (Input.GetButton("Fire1") && currentAmmo == 0)
                 || (currentAmmo < magazineSize && ammoPool > 0 && Input.GetKey(KeyCode.R))
               )
                 && ammoPool > 0 && state != WeaponState.Reload)
@@ -129,21 +100,22 @@ public class Rifle : MonoBehaviour
                 ammoPool -= magazineSize - currentAmmo;
                 currentAmmo = magazineSize;
             }
-            
+
 
             state = WeaponState.Idle;
         }
         //Fire
-        while (Input.GetButton("Fire1") && currentAmmo > 0 && state != WeaponState.Reload)
+        while (Input.GetButton("Fire1") && currentAmmo > 0 && state == WeaponState.Idle)
         {
             state = WeaponState.Firing;
             currentAmmo--;
             audioSource.PlayOneShot(shootSound);
-            GameObject instance = Instantiate(bullet, muzzle.position, muzzle.rotation * Quaternion.Euler(0, 0, 0)) as GameObject;
+            GameObject instance = Instantiate(bullet, muzzleOut, muzzle.rotation * Quaternion.Euler(0, 0, 0)) as GameObject;
+            instance.GetComponent<bulletController>().damage = damage;
 
             yield return new WaitForSeconds(1 / fireRate);
 
-            state = WeaponState.Idle;
+            //state = PistolState.Idle;
         }
         //Magazine empty
         while (Input.GetButton("Fire1") && currentAmmo == 0 && ammoPool == 0 && state == WeaponState.Idle)
@@ -163,5 +135,4 @@ public class Rifle : MonoBehaviour
         Debug.Log("Rifle changed");
         state = WeaponState.Idle;
     }
-
 }

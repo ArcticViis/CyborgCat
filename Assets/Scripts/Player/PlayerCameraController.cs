@@ -65,7 +65,7 @@ namespace Werecat
         }
         void UpdateCamera()
         {
-            cameraXRotation = Mathf.Clamp(cameraXRotation - Input.GetAxisRaw("Mouse Y") * lookSensitivity, -lookMinMAx, lookMinMAx);
+            cameraXRotation = Mathf.Clamp(cameraXRotation - Input.GetAxisRaw("Mouse Y") * 0.4f, -lookMinMAx, lookMinMAx);
             privcameraOffset.z -= Input.GetAxis("Mouse ScrollWheel")* Time.fixedDeltaTime * 30 ;
             pivot.localPosition = new Vector3(privcameraOffset.x, privcameraOffset.y, 0);
             

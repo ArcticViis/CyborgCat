@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
@@ -20,16 +21,24 @@ public class PlayerController : MonoBehaviour {
     private float jumpPower = 0f;
 
     [SerializeField]
+    private float health = 200f;
+    [SerializeField]
+    private float maxHealth = 200f;
+
+
+    public Image hpbar;
+    [SerializeField]
     private Animator aminc;
 
     public bool climbing = false;
     #endregion
 
+    
     // Use this for initialization
     void Start () {
         cc = GetComponent<CharacterController>();
         //rb = GetComponent<Rigidbody>();
-
+        
 	}
 	
 	// Update is called once per frame
@@ -43,6 +52,8 @@ public class PlayerController : MonoBehaviour {
             Cursor.lockState = Cursor.lockState == CursorLockMode.None ? CursorLockMode.Locked : CursorLockMode.None;
             Cursor.visible = !Cursor.visible;
         }
+
+        hpbar.fillAmount = health / maxHealth;
     }
     
     private void Movement()
@@ -111,8 +122,25 @@ public class PlayerController : MonoBehaviour {
     }
     private void Turning()
     {
-        float _rotationY = Input.GetAxisRaw("Mouse X");
+        float _rotationY = Input.GetAxisRaw("Mouse X") * 0.4f;
         transform.Rotate(new Vector3(0, _rotationY * 3f, 0));
+    }
+
+    public void TakeDamage(float _damage)
+    {
+        if (_damage > health)
+        {
+            health = 0;
+        }
+        else
+        {
+            health -= _damage;
+        }
+        Debug.Log("Took damage : " + _damage.ToString());
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
 }

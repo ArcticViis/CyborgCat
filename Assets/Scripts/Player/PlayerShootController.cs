@@ -77,40 +77,5 @@ public class PlayerShootController : MonoBehaviour {
         }
     }
 
-    //private void shootProjectile()
-    //{
-    //    GameObject instance = Instantiate(projectilePrefab, launchposition, pipe.rotation * Quaternion.Euler(0, 0, 0)) as GameObject;
-    //}
-    //private IEnumerator Shoot( float _chargeTime, float _waitTime)
-    //{
-        
-    //    float _timeElapsed = 0;
-    //    while (Input.GetButton("Fire1") && _chargeTime > _timeElapsed)
-    //    {
-            
-    //        _timeElapsed += Time.fixedDeltaTime;
-    //        //Debug.Log("Charging");
-    //        yield return new WaitForFixedUpdate();
-    //    }
-
-    //    if (_chargeTime > _timeElapsed)
-    //    {
-    //        yield return null;
-    //    }
-    //    else
-    //    {
-    //        Debug.Log("Firing");
-    //        //shootProjectile();
-    //    }
-    //    yield return new WaitForSeconds(_waitTime);
-    //}
-
-    //private IEnumerator Shoot(float _firerate)
-    //{
-    //    while (Input.GetButton("Fire1"))
-    //    {
-    //        shootProjectile();
-    //        yield return new WaitForSeconds(1 / _firerate);
-    //    }
-    //}
+   
 }
