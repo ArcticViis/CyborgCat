@@ -52,28 +52,49 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetButton("Sprint"))
         {
             _movementSpeed = runMS;
+            aminc.SetBool("running", true);
+
         }
+        else
+        { aminc.SetBool("running", false); }
+        
 
         Vector3 _forward = Input.GetAxisRaw("Vertical") * transform.forward;
         Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
         Vector3 _movement = (_forward + _right).normalized * _movementSpeed;
+        Debug.Log(_movement.magnitude.ToString());
+        if(_movement.magnitude > 0.1)
+        {
+            aminc.SetBool("walk", true);
+        }
+        else
+        {
+            aminc.SetBool("walk", false);
 
+        }
+
+        aminc.SetFloat("Forward", Input.GetAxisRaw("Vertical"));
+        aminc.SetFloat("Left", Input.GetAxisRaw("Horizontal"));
         #region Jumpstuff
         if (!cc.isGrounded)
         {
 
             jumpPower -= (9.81f * Time.deltaTime);
+            aminc.SetBool("onLand", false);
         }
 
         if (cc.isGrounded)
         {
             jumpPower = 0f;
+            aminc.SetBool("onLand", true);
         }
 
         if(Input.GetButton("Jump") && cc.isGrounded)
         {
             Debug.Log("jump");
             jumpPower = 5f;
+            aminc.SetTrigger("jump");
+            
         }
         #endregion
 
