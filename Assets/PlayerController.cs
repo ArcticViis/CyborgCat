@@ -19,7 +19,8 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private float jumpPower = 0f;
 
-
+    [SerializeField]
+    private Animator aminc;
 
     public bool climbing = false;
     #endregion
