@@ -47,4 +47,9 @@ public class EnemyMove : MonoBehaviour {
         }
        
     }
+
+    void Retreat()
+    {
+
+    }
 }

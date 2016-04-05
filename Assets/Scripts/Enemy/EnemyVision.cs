@@ -26,7 +26,7 @@ public class EnemyVision : MonoBehaviour {
         alertRange = itself.alertRange;
         hostileRange = itself.hostileRange;
         retreatRange = itself.retreatRange;
-}
+    }
 	
 	// Update is called once per frame
 	void Update () {

@@ -26,7 +26,10 @@ public class Enemy : MonoBehaviour {
 	void Update () {
         
 	}
-    
+    void Awake()
+    {
+        comms.RegisterEnemy(gameObject);
+    }
     public void TakeDamage(float _damage)
     {
         if(_damage > health)
