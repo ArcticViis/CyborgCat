@@ -44,11 +44,9 @@ public class EnemyVision : MonoBehaviour {
             {
                 Debug.Log("I see you!");
                 itself.personalSeen = player.transform.position;
-
             }
             if(_distance < alertRange)
             {   
-
                 playerOnSight = true;
                 comms.playerSpot = player.transform.position;
 
@@ -58,7 +56,6 @@ public class EnemyVision : MonoBehaviour {
             }
             else
             {
-
                 enemyShoot.shooting = false;
                 playerOnSight = false;
             }
