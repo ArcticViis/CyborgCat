@@ -8,7 +8,6 @@ public class EnemyShoot : MonoBehaviour {
     public float damage = 5f;
 
     public GameObject bullet;
-    public EnemyCommunications comms;
     private Enemy itself;
     // Use this for initialization
     void Start () {
@@ -29,7 +28,7 @@ public class EnemyShoot : MonoBehaviour {
     {
         for (int i = 0; i < 4; i++)
         {
-            Vector3 _rot = comms.playerSpot - transform.position;
+            Vector3 _rot = itself.Comms.playerSpot - transform.position;
             GameObject instance = Instantiate(bullet, transform.position + Vector3.up, transform.rotation) as GameObject;
             instance.GetComponent<bulletController>().damage = damage;
             yield return new WaitForSeconds(1 / 6f);

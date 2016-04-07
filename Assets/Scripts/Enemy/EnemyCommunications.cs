@@ -10,7 +10,6 @@ public class EnemyCommunications : MonoBehaviour {
     [SerializeField]
     private List<GameObject> enemies = new List<GameObject>();
 
-    private 
 	// Use this for initialization
 	void Start () {
 

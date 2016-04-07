@@ -2,13 +2,13 @@
 using System.Collections;
 
 public class EnemyMove : MonoBehaviour {
-    public EnemyCommunications comms;
     private Enemy itself;
     private float retreatRange;
     private NavMeshAgent agent;
 
-    private Vector3 retreatTarget = Vector3.zero;
-    private bool retreating = false;
+    private Vector3 moveTarget = Vector3.zero;
+    private bool moving = false;
+
     // Use this for initialization
     void Start () {
         itself = GetComponent<Enemy>();
@@ -19,37 +19,47 @@ public class EnemyMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-
-        if (Vector3.Distance(comms.player.transform.position, transform.position) < retreatRange && !retreating)
+        if (Vector3.Distance(itself.Comms.player.transform.position, transform.position) < retreatRange && !moving && itself.playerOnSight)
         {
             float _rot = 0f;
             Vector3 _dir = Vector3.zero;
             while (_rot < 100)
             {
                 Vector3 _rand = Random.onUnitSphere;
-                _rot = Vector3.Angle(_rand, comms.player.transform.position - transform.position);
+                _rot = Vector3.Angle(_rand, itself.Comms.player.transform.position - transform.position);
                 _dir = _rand;
             }
             _rot *= 2f;
             NavMeshHit _hit;
             NavMesh.SamplePosition(transform.position + _dir * 5f, out _hit, 5f,NavMesh.AllAreas);
-            retreating = true;
-            retreatTarget = _hit.position;
+            moving = true;
+            moveTarget = _hit.position;
         }
-        if (retreating)
+        if (moving)
         {
-            agent.SetDestination(retreatTarget);
+            agent.SetDestination(moveTarget);
             //agent.Move(Vector3.Lerp(transform.position, retreatTarget, Time.deltaTime * 0.2f));
-            if (Vector3.Distance(transform.position, retreatTarget) < 2 || Vector3.Distance(transform.position, comms.player.transform.position) > retreatRange + 2f)
+            if (Vector3.Distance(transform.position, moveTarget) < 2 || Vector3.Distance(transform.position, itself.Comms.player.transform.position) > retreatRange + 2f)
             {
-                retreating = false;
+                moving = false;
             }
         }
-       
+        Debug.DrawLine(transform.position + transform.up, moveTarget + Vector3.up, Color.red);
     }
 
     void Retreat()
     {
+
+    }
+    public void MoveToPoint(Vector3 _pos)
+    {
+        NavMeshHit _hit;
+        NavMesh.SamplePosition(_pos, out _hit, 3f, NavMesh.AllAreas);
+        if (!moving)
+        {
+            moveTarget = _hit.position;
+            moving = true;
+        }
 
     }
 }

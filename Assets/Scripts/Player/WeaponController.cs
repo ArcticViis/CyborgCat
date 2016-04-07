@@ -5,11 +5,13 @@ using System.Collections;
 public class WeaponController : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] weapons;
+    private GameObject rifle;
+    [SerializeField]
+    private GameObject pistol;
     [SerializeField]
     private Text text;
 
-    private Weapons activeWeapon;
+    private GameObject activeWeapon;
 
     [SerializeField]
     private Pistol pistolScript;
@@ -21,8 +23,8 @@ public class WeaponController : MonoBehaviour
     enum Weapons { Pistol = 0, Rifle };
     void Start()
     {
-        weapons[(int)Weapons.Pistol].SetActive(true);
-        activeWeapon = Weapons.Pistol;
+        pistol.SetActive(true);
+        activeWeapon = pistol;
     }
 
     // Update is called once per frame
@@ -30,12 +32,12 @@ public class WeaponController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            weapons[(int)Weapons.Pistol].SetActive(!weapons[(int)Weapons.Pistol].activeSelf);
-            weapons[(int)Weapons.Rifle].SetActive(!weapons[(int)Weapons.Rifle].activeSelf);
-            activeWeapon = activeWeapon == Weapons.Pistol ? Weapons.Rifle : Weapons.Pistol;
+            pistol.SetActive(!pistol.activeSelf);
+            rifle.SetActive(!rifle.activeSelf);
+            activeWeapon = pistol.activeSelf ? pistol : rifle; ;
         }
 
-        if(activeWeapon == Weapons.Pistol)
+        if(activeWeapon == pistol)
         {
             currentAmmo = pistolScript.CurrentAmmo.ToString();
             ammoPool = pistolScript.AmmoPool.ToString();

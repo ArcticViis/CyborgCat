@@ -9,6 +9,8 @@ public class SpellController : MonoBehaviour {
     private Vector3 telePos;
     public float teleportDistance = 25f;
 
+    public GameObject blinkEffect;
+
     // Use this for initialization
     void Start () {
         //cc = GetComponent<CharacterController>();
@@ -21,6 +23,7 @@ public class SpellController : MonoBehaviour {
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
+            Instantiate(blinkEffect, transform.position, transform.rotation);
             Blink(telePos);
         }
     

@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1149339567, guid: e0781e12b13132b45bf09c20fcd34d12, type: 3}
+  m_Name: BTEditorWindowState
+  m_EditorClassIdentifier: 
+  Version: 21
+  HolderNodes:
+  - AssetPath: 2e63757272656e746169
+    BehaviorTreeName: 284e6f2041492053656c656374656429
+    BehaviorTreeID: 0
+    BehaviorTreeBindings: []
+    LastUpdate: 30
+    LastModified: 30
+    Errored: 0
+  - AssetPath: 2e637265617465786d6c
+    BehaviorTreeName: 437265617465204e6577204265686176696f722054726565
+    BehaviorTreeID: 0
+    BehaviorTreeBindings: []
+    LastUpdate: 30
+    LastModified: 30
+    Errored: 0
+  - AssetPath: 4173736574732f41492f4265686176696f7254726565732f4772696e6565722e6173736574
+    BehaviorTreeName: 4772696e656572
+    BehaviorTreeID: 1
+    BehaviorTreeBindings: []
+    LastUpdate: 363335393535343034303636333931393530
+    LastModified: 363335393535343030383139333433333237
+    Errored: 0
+  TreeState:
+    _branchRepo:
+    - _fields: []
+      _type: 0
+      _stateIndex: 0
+      _parent: 0
+      _lastUpdate: 30
+      _children: 
+      _variables: 
+      _focused: 0
+    - _fields:
+      - _field: 6e616d65
+        _currentValue: 4772696e656572
+        _recordChange: 1
+        _changed: 0
+      - _field: 6f70656e
+        _currentValue: 54727565
+        _recordChange: 0
+        _changed: 0
+      - _field: 726570656174756e74696c
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6465627567627265616b
+        _currentValue: 46616c7365
+        _recordChange: 1
+        _changed: 0
+      - _field: 7374617274696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 72756e6e696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 7072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 776569676874
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      _type: 4
+      _stateIndex: 1
+      _parent: 0
+      _lastUpdate: 363335393535343034303536333833303437
+      _children: 02000000
+      _variables: 
+      _focused: 0
+    - _fields:
+      - _field: 6e616d65
+        _currentValue: 726f6f74
+        _recordChange: 1
+        _changed: 0
+      - _field: 6f70656e
+        _currentValue: 54727565
+        _recordChange: 0
+        _changed: 0
+      - _field: 726570656174756e74696c
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6465627567627265616b
+        _currentValue: 46616c7365
+        _recordChange: 1
+        _changed: 0
+      - _field: 7374617274696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 72756e6e696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 7072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 776569676874
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 7573657072696f726974696573
+        _currentValue: 46616c7365
+        _recordChange: 1
+        _changed: 0
+      _type: 19
+      _stateIndex: 2
+      _parent: 1
+      _lastUpdate: 363335393535343034303536333833303437
+      _children: 0300000004000000
+      _variables: 
+      _focused: 0
+    - _fields:
+      - _field: 6e616d65
+        _currentValue: 646574656374
+        _recordChange: 1
+        _changed: 0
+      - _field: 726570656174756e74696c
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6465627567627265616b
+        _currentValue: 46616c7365
+        _recordChange: 1
+        _changed: 0
+      - _field: 7374617274696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 72756e6e696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 7072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 776569676874
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 73656e736f72
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 617370656374
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6173706563747661726961626c65
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 656e746974796f626a6563747661726961626c65
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6173706563746f626a6563747661726961626c65
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6d6174636874797065
+        _currentValue: 62657374
+        _recordChange: 1
+        _changed: 0
+      - _field: 636f6e73697374656e74
+        _currentValue: 54727565
+        _recordChange: 1
+        _changed: 0
+      _type: 7
+      _stateIndex: 3
+      _parent: 2
+      _lastUpdate: 363335393535343033363131343236323737
+      _children: 
+      _variables: 
+      _focused: 1
+    - _fields:
+      - _field: 6e616d65
+        _currentValue: 636f6e73747261696e74
+        _recordChange: 1
+        _changed: 0
+      - _field: 6f70656e
+        _currentValue: 54727565
+        _recordChange: 0
+        _changed: 0
+      - _field: 726570656174756e74696c
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 6465627567627265616b
+        _currentValue: 46616c7365
+        _recordChange: 1
+        _changed: 0
+      - _field: 7374617274696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 72756e6e696e677072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 7072696f72697479
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 776569676874
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      - _field: 636f6e73747261696e74
+        _currentValue: 
+        _recordChange: 1
+        _changed: 0
+      _type: 5
+      _stateIndex: 4
+      _parent: 2
+      _lastUpdate: 30
+      _children: 
+      _variables: 
+      _focused: 0
+    _freeList: 
