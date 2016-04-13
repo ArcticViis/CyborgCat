@@ -1,36 +1,41 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-
-public class EnemyCommunications : MonoBehaviour {
-
-    public GameObject player;
-    public Vector3 playerSpot;
-
-    [SerializeField]
-    private List<GameObject> enemies = new List<GameObject>();
-
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-    public void RegisterEnemy(GameObject _regist)
+namespace Werecat
+{
+    public class EnemyCommunications : MonoBehaviour
     {
-        enemies.Add(_regist);
-    }
 
-    public void PlayerSpotted(Vector3 position, Vector3 origin)
-    {
-        foreach (GameObject enemy in enemies)
+        public GameObject player;
+        public Vector3 playerSpot;
+
+        [SerializeField]
+        private List<GameObject> enemies = new List<GameObject>();
+
+        // Use this for initialization
+        void Start()
         {
-            if(Vector3.Distance(position,origin) < 100)
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+        public void RegisterEnemy(GameObject _regist)
+        {
+            enemies.Add(_regist);
+        }
+
+        public void PlayerSpotted(Vector3 position, Vector3 origin)
+        {
+            foreach (GameObject enemy in enemies)
             {
-                // go to help;
+                if (Vector3.Distance(position, origin) < 100)
+                {
+                    // go to help;
+                }
             }
         }
     }

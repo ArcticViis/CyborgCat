@@ -48,6 +48,9 @@ namespace Werecat
             cam = Camera.main;
             //rb = GetComponent<Rigidbody>();
             privcameraOffset = cameraOffset;
+            cam.transform.parent = pivot;
+            cam.transform.localEulerAngles = Vector3.zero;
+            cam.transform.localPosition = new Vector3(0, 0, -2) ;
         }
 
         void Update()
@@ -70,11 +73,12 @@ namespace Werecat
             pivot.localPosition = new Vector3(privcameraOffset.x, privcameraOffset.y, 0);
             
             pivot.localEulerAngles = new Vector3(cameraXRotation, pivot.localEulerAngles.y, 0);
-            cam.transform.position = pivot.TransformPoint(Vector3.forward * -(privcameraOffset.z - distanceOffset));
-            cam.transform.LookAt(pivot);
+            //cam.transform.position = pivot.TransformPoint(Vector3.forward * -(privcameraOffset.z - distanceOffset));
+            //cam.transform.LookAt(pivot);
+            //cam.transform.rotation = pivot.rotation;
         }
 
-        void CameraCollision() // http://wiki.unity3d.com/index.php/SmoothFollowWithCameraBumper
+        void CameraCollision() 
         {
             Vector3 pivPos = pivot.position;
             float _distance = cameraOffset.z;
@@ -106,6 +110,10 @@ namespace Werecat
                 privcameraOffset = Vector3.Lerp(privcameraOffset, cameraOffset, Time.deltaTime * cameraZoomSpeed);
                 Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, maxFOV , Time.deltaTime * cameraZoomSpeed);
             }
+        }
+        public void CameraPunch()
+        {
+            iTween.PunchPosition(Camera.main.gameObject, Vector3.one, 1);
         }
     }
 }

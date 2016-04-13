@@ -1,75 +1,81 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyVision : MonoBehaviour {
-
-    public float viewAngle = 110f;
-    public GameObject player;
-
-    private float cautionRange;
-    private float alertRange ;
-    private float hostileRange ;
-    private float retreatRange ;
-
-    private Enemy itself;
-
-    private bool playerOnSight = false;
-
-	// Use this for initialization
-	void Start () {
-        itself = GetComponent<Enemy>();
-        cautionRange = itself.cautionRange;
-        alertRange = itself.alertRange;
-        hostileRange = itself.hostileRange;
-        retreatRange = itself.retreatRange;
-    }
-	
-	// Update is called once per frame
-	void Update () {
-        
-
-	}
-    void FixedUpdate()
+namespace Werecat
+{
+    public class EnemyVision : MonoBehaviour
     {
-        float _distance = Vector3.Distance(player.transform.position, transform.position);
-        float _angle = Vector3.Angle(player.transform.position - transform.position, transform.forward);
 
-        if (_angle <= viewAngle / 2 && _distance < cautionRange )
+        public float viewAngle = 110f;
+        public GameObject player;
+
+        private float cautionRange;
+        private float alertRange;
+        private float hostileRange;
+        private float retreatRange;
+
+        private Enemy itself;
+
+        private bool playerOnSight = false;
+
+        // Use this for initialization
+        void Start()
         {
-            if(_distance < cautionRange && _distance > alertRange)
-            {
-                Debug.Log("I see you!");
-                itself.personalSeen = player.transform.position;
-            }
-            if(_distance < alertRange)
-            {
-                Vector3 _line = (transform.position - player.transform.position);
-                Vector3 _targetPos = player.transform.position + _line.normalized * 20f;
-                itself.Mover.MoveToPoint(_targetPos);
-            }
-            if(_distance < hostileRange)
-            {   
-                playerOnSight = true;
-                itself.playerOnSight = true;
-                itself.Comms.playerSpot = player.transform.position;
+            itself = GetComponent<Enemy>();
+            cautionRange = itself.cautionRange;
+            alertRange = itself.alertRange;
+            hostileRange = itself.hostileRange;
+            retreatRange = itself.retreatRange;
+        }
 
-                Vector3 _dir = player.transform.position - transform.position;
-                Quaternion _targetRot = Quaternion.LookRotation(_dir);
-                transform.rotation = Quaternion.Lerp(transform.rotation, _targetRot, Time.fixedDeltaTime * itself.angular);
+        // Update is called once per frame
+        void Update()
+        {
 
-                //transform.eulerAngles = Vector3.Slerp(transform.rotation.eulerAngles, (comms.playerSpot - transform.position).normalized, Time.fixedDeltaTime * 2f);
-                //transform.LookAt(comms.playerSpot, Vector3.up);
 
-                if(!itself.Shooter.shooting) itself.Shooter.shooting = true;
-            }
-            else
+        }
+        void FixedUpdate()
+        {
+            float _distance = Vector3.Distance(player.transform.position, transform.position);
+            float _angle = Vector3.Angle(player.transform.position - transform.position, transform.forward);
+
+            if (_angle <= viewAngle / 2 && _distance < cautionRange)
             {
-                itself.Shooter.shooting = false;
-                playerOnSight = false;
-                itself.playerOnSight = false;
+                if (_distance < cautionRange && _distance > alertRange)
+                {
+                    Debug.Log("I see you!");
+                    itself.personalSeen = player.transform.position;
+                }
+                if (_distance < alertRange)
+                {
+                    Vector3 _line = (transform.position - player.transform.position);
+                    Vector3 _targetPos = player.transform.position + _line.normalized * 20f;
+                    itself.Mover.MoveToPoint(_targetPos);
+                }
+                if (_distance < hostileRange)
+                {
+                    playerOnSight = true;
+                    itself.playerOnSight = true;
+                    itself.Comms.playerSpot = player.transform.position;
+
+                    Vector3 _dir = player.transform.position - transform.position;
+                    Quaternion _targetRot = Quaternion.LookRotation(_dir);
+                    transform.rotation = Quaternion.Lerp(transform.rotation, _targetRot, Time.fixedDeltaTime * itself.angular);
+
+                    //transform.eulerAngles = Vector3.Slerp(transform.rotation.eulerAngles, (comms.playerSpot - transform.position).normalized, Time.fixedDeltaTime * 2f);
+                    //transform.LookAt(comms.playerSpot, Vector3.up);
+
+                    if (!itself.Shooter.shooting) itself.Shooter.shooting = true;
+                }
+                else
+                {
+                    itself.Shooter.shooting = false;
+                    playerOnSight = false;
+                    itself.playerOnSight = false;
+                }
+
+
             }
-           
-            
         }
     }
 }
