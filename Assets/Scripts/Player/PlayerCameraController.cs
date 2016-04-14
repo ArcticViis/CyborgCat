@@ -38,14 +38,16 @@ namespace Werecat
 
 
         private Camera cam;
+        private PlayerSettings ps;
         //private Rigidbody rb;
 
-
+        public bool clamp = true;
         private float cameraXRotation = 0f;
         // Use this for initialization
         void Start()
         {
             cam = Camera.main;
+            ps = GetComponent<PlayerSettings>();
             //rb = GetComponent<Rigidbody>();
             privcameraOffset = cameraOffset;
             cam.transform.parent = pivot;
@@ -57,19 +59,29 @@ namespace Werecat
         {
             
             CameraZoom(Input.GetButton("Fire2"));
+            UpdateCamera();
 
         }
         void LateUpdate()
         {
             CameraCollision();
-            UpdateCamera();
+            
             
 
         }
         void UpdateCamera()
         {
-            cameraXRotation = Mathf.Clamp(cameraXRotation - Input.GetAxisRaw("Mouse Y") * 0.4f, -lookMinMAx, lookMinMAx);
-            privcameraOffset.z -= Input.GetAxis("Mouse ScrollWheel")* Time.fixedDeltaTime * 30 ;
+            if (clamp)
+            {
+                cameraXRotation = Mathf.Clamp(cameraXRotation - Input.GetAxisRaw("Mouse Y") * ps.LookSensitivityX, -lookMinMAx, lookMinMAx);
+            }
+            else
+            {
+                cameraXRotation -= Input.GetAxisRaw("Mouse Y") * ps.LookSensitivityX;
+            }
+            Debug.Log(new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y")) .ToString());
+  
+            //privcameraOffset.z -= Input.GetAxis("Mouse ScrollWheel")* Time.fixedDeltaTime * 30 ;
             pivot.localPosition = new Vector3(privcameraOffset.x, privcameraOffset.y, 0);
             
             pivot.localEulerAngles = new Vector3(cameraXRotation, pivot.localEulerAngles.y, 0);

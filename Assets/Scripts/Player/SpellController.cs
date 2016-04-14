@@ -21,7 +21,7 @@ namespace Werecat
             //player = gameObject;
 
         }
-
+        
         // Update is called once per frame
         void LateUpdate()
         {

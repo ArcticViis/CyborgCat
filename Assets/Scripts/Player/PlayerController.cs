@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 namespace Werecat
 {
@@ -35,14 +36,25 @@ namespace Werecat
         private PlayerInput pi;
         #endregion
 
-
+        #region InputVariables
+        //
+        private float forwardInput;
+        private float rightInput;
+        private bool sprintInput;
+        //
+        #endregion
+        private PlayerSettings ps;
+        
         void Start()
         {
             cc = GetComponent<CharacterController>();
+            ps = GetComponent<PlayerSettings>();
         }
 
         void Update()
         {
+            GetInput();
+            PlayAnimations();
             if (!climbing) Movement();
             if (climbing) Climbing();
             Turning();
@@ -56,11 +68,24 @@ namespace Werecat
             hpbar.fillAmount = health / maxHealth;
         }
 
+        
+
+        private void GetInput()
+        {
+            forwardInput = Input.GetAxisRaw("Vertical");
+            rightInput = Input.GetAxisRaw("Horizontal");
+            sprintInput = Input.GetButton("Sprint");
+        }
+        private void PlayAnimations()
+        {
+            aminc.SetFloat("Forward", forwardInput);
+            aminc.SetFloat("Left", rightInput);
+        }
         private void Movement()
         {
             float _movementSpeed = walkMS;
 
-            if (Input.GetButton("Sprint"))
+            if (sprintInput)
             {
                 _movementSpeed = runMS;
                 aminc.SetBool("running", true);
@@ -70,8 +95,8 @@ namespace Werecat
             { aminc.SetBool("running", false); }
 
 
-            Vector3 _forward = Input.GetAxisRaw("Vertical") * transform.forward;
-            Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
+            Vector3 _forward = forwardInput * transform.forward;
+            Vector3 _right = rightInput * transform.right;
             Vector3 _movement = (_forward + _right).normalized * _movementSpeed;
             Debug.Log(_movement.magnitude.ToString());
             if (_movement.magnitude > 0.1)
@@ -83,9 +108,6 @@ namespace Werecat
                 aminc.SetBool("walk", false);
 
             }
-
-            aminc.SetFloat("Forward", Input.GetAxisRaw("Vertical"));
-            aminc.SetFloat("Left", Input.GetAxisRaw("Horizontal"));
 
             #region Jumpstuff
             if (!cc.isGrounded)
@@ -114,14 +136,14 @@ namespace Werecat
 
         private void Climbing()
         {
-            Vector3 _up = Input.GetAxisRaw("Vertical") * transform.up;
-            Vector3 _right = Input.GetAxisRaw("Horizontal") * transform.right;
+            Vector3 _up = forwardInput * transform.up;
+            Vector3 _right = rightInput * transform.right;
             Vector3 _movement = (_up + _right).normalized * climbMS;
             cc.Move(_movement * Time.deltaTime);
         }
         private void Turning()
         {
-            float _rotationY = Input.GetAxisRaw("Mouse X") * 0.4f;
+            float _rotationY = Input.GetAxisRaw("Mouse X") * ps.LookSensitivityY;
             transform.Rotate(new Vector3(0, _rotationY * 3f, 0));
         }
 
