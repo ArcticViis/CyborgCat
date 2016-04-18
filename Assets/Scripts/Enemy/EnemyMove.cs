@@ -22,6 +22,8 @@ namespace Werecat
         // Update is called once per frame
         void Update()
         {
+            
+
             if (Vector3.Distance(itself.Comms.player.transform.position, transform.position) < retreatRange && !moving && itself.playerOnSight)
             {
                 float _rot = 0f;
@@ -49,6 +51,9 @@ namespace Werecat
             }
             Debug.DrawLine(transform.position + transform.up, moveTarget + Vector3.up, Color.red);
         }
+
+        
+
 
         void Retreat()
         {

@@ -98,7 +98,7 @@ namespace Werecat
             Vector3 _forward = forwardInput * transform.forward;
             Vector3 _right = rightInput * transform.right;
             Vector3 _movement = (_forward + _right).normalized * _movementSpeed;
-            Debug.Log(_movement.magnitude.ToString());
+            //Debug.Log(_movement.magnitude.ToString());
             if (_movement.magnitude > 0.1)
             {
                 aminc.SetBool("walk", true);
@@ -157,7 +157,7 @@ namespace Werecat
             {
                 health -= _damage;
             }
-            Debug.Log("Took damage : " + _damage.ToString());
+            //Debug.Log("Took damage : " + _damage.ToString());
             if (health <= 0)
             {
                 Destroy(gameObject);

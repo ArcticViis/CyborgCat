@@ -134,7 +134,7 @@ namespace Werecat
 
         public void OnDisable()
         {
-            Debug.Log("Rifle changed");
+            //Debug.Log("Rifle changed");
             state = WeaponState.Idle;
         }
     }

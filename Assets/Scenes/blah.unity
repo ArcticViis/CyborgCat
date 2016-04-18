@@ -5192,9 +5192,9 @@ GameObject:
   - 195: {fileID: 324462901}
   - 136: {fileID: 324462900}
   - 114: {fileID: 324462899}
-  - 114: {fileID: 324462898}
   - 114: {fileID: 324462897}
   - 114: {fileID: 324462896}
+  - 114: {fileID: 324462898}
   m_Layer: 0
   m_Name: Grineer
   m_TagString: Enemy
@@ -5264,6 +5264,7 @@ MonoBehaviour:
   agent: {fileID: 324462901}
   angular: 13.92
   personalSeen: {x: 0, y: 0, z: 0}
+  alive: 0
   comms: {fileID: 395880896}
   mover: {fileID: 324462896}
   shooter: {fileID: 324462897}
@@ -8064,25 +8065,18 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _ParallaxMap
-        second:
-          m_Texture: {fileID: 2800000, guid: 609ac2c8150d19a4196568e7ed1ab78c, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _OcclusionMap
-        second:
-          m_Texture: {fileID: 2800000, guid: 609ac2c8150d19a4196568e7ed1ab78c, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _EmissionMap
         second:
           m_Texture: {fileID: 2800000, guid: 609ac2c8150d19a4196568e7ed1ab78c, type: 3}
           m_Scale: {x: 0.5, y: 0.5}
           m_Offset: {x: 0.5, y: 0.5}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 609ac2c8150d19a4196568e7ed1ab78c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DetailMask
@@ -8095,6 +8089,13 @@ Material:
           name: _DetailAlbedoMap
         second:
           m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 609ac2c8150d19a4196568e7ed1ab78c, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:

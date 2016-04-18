@@ -17,8 +17,8 @@ namespace Werecat
 
             if (Physics.Raycast(transform.position, transform.forward, out _rhit, muzzleVelocity * _update))
             {
-                Debug.Log(_rhit);
-                Debug.Log("Destroy");
+                //Debug.Log(_rhit);
+                //Debug.Log("Destroy");
                 if (_rhit.collider.tag == "Enemy" || _rhit.collider.tag == "Player")
                 {
                     Damage(_rhit.collider.gameObject);

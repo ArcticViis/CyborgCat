@@ -79,7 +79,7 @@ namespace Werecat
             {
                 cameraXRotation -= Input.GetAxisRaw("Mouse Y") * ps.LookSensitivityX;
             }
-            Debug.Log(new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y")) .ToString());
+            //Debug.Log(new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y")) .ToString());
   
             //privcameraOffset.z -= Input.GetAxis("Mouse ScrollWheel")* Time.fixedDeltaTime * 30 ;
             pivot.localPosition = new Vector3(privcameraOffset.x, privcameraOffset.y, 0);

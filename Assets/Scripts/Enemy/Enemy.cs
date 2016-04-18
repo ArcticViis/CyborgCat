@@ -17,7 +17,7 @@ namespace Werecat
         public float angular = 1f;
 
         public Vector3 personalSeen;
-
+        public bool alive = true;
 
         [SerializeField]
         private EnemyCommunications comms;

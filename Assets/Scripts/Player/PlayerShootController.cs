@@ -64,7 +64,7 @@ namespace Werecat
             int layermask = 1 << 8;
             layermask = ~layermask;
 
-            if (Physics.Raycast(ray, out _hit, 300f, layermask))
+            if (Physics.Raycast(ray, out _hit, 300f, layermask, QueryTriggerInteraction.Ignore))
             {
                 followCross.position = Vector3.Lerp(followCross.position, Camera.main.WorldToScreenPoint(_hit.point), Time.deltaTime * damp);
             }
