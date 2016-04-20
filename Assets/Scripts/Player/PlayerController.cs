@@ -160,7 +160,8 @@ namespace Werecat
             //Debug.Log("Took damage : " + _damage.ToString());
             if (health <= 0)
             {
-                Destroy(gameObject);
+                Time.timeScale = 0.000000001f;
+                //Destroy(gameObject);
             }
         }
 

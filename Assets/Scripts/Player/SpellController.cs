@@ -13,15 +13,28 @@ namespace Werecat
         public float teleportDistance = 25f;
 
         public GameObject blinkEffect;
+        public Animator _animator;
 
         // Use this for initialization
         void Start()
         {
             //cc = GetComponent<CharacterController>();
             //player = gameObject;
-
+            _animator = GetComponentInChildren<Animator>();
         }
-        
+        void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                _animator.SetTrigger("Portal");
+                //particle.Play();
+            }
+            /****Shield****/
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                _animator.SetTrigger("shield");
+            }
+        }
         // Update is called once per frame
         void LateUpdate()
         {
@@ -31,7 +44,7 @@ namespace Werecat
                 Blink(telePos);
             }
 
-            Debug.DrawLine(transform.position, transform.forward * teleportDistance);
+            //Debug.DrawLine(transform.position, transform.position + transform.forward * teleportDistance, Color.yellow);
             if (Physics.CapsuleCast(Camera.main.transform.position + Camera.main.transform.forward * 6 - Vector3.up, Camera.main.transform.position + Vector3.up, 1.1f, Camera.main.transform.forward, out _rhit, teleportDistance))
             {
                 //Debug.Log(_rhit.point);

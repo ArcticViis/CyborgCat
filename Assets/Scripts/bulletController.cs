@@ -15,7 +15,7 @@ namespace Werecat
             float _update = Time.deltaTime;
             RaycastHit _rhit;
 
-            if (Physics.Raycast(transform.position, transform.forward, out _rhit, muzzleVelocity * _update))
+            if (Physics.Raycast(transform.position, transform.forward, out _rhit, muzzleVelocity * _update, -1, QueryTriggerInteraction.Ignore))
             {
                 //Debug.Log(_rhit);
                 //Debug.Log("Destroy");

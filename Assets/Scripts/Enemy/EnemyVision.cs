@@ -26,12 +26,13 @@ namespace Werecat
             alertRange = itself.alertRange;
             hostileRange = itself.hostileRange;
             retreatRange = itself.retreatRange;
+            player = itself.Comms.player;
+
         }
 
         void Awake()
         {
-
-            StartCoroutine(PollEyes());
+           // StartCoroutine(PollEyes());
             Debug.Log("Eyes are watching");
         }
         // Update is called once per frame
@@ -87,22 +88,22 @@ namespace Werecat
             
         }
 
-        IEnumerator PollEyes()
-        {
+        //IEnumerator PollEyes()
+        //{
 
 
-            while (true)
-            {
-                Collider[] colliders = Physics.OverlapSphere(transform.position, 50f, -1, QueryTriggerInteraction.Ignore);
-                foreach (Collider coll in colliders)
-                {
-                    if (coll.tag == "Player")
-                    {
-                        Debug.Log("GOTCHA!");
-                    }
-                }
-                yield return new WaitForSeconds(0.2f);
-            }
-        }
+        //    while (true)
+        //    {
+        //        Collider[] colliders = Physics.OverlapSphere(transform.position, 50f, -1, QueryTriggerInteraction.Ignore);
+        //        foreach (Collider coll in colliders)
+        //        {
+        //            if (coll.tag == "Player")
+        //            {
+        //                Debug.Log("GOTCHA!");
+        //            }
+        //        }
+        //        yield return new WaitForSeconds(0.2f);
+        //    }
+        //}
     }
 }

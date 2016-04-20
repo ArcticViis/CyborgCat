@@ -57,17 +57,12 @@ namespace Werecat
 
         void Update()
         {
-            
             CameraZoom(Input.GetButton("Fire2"));
-            UpdateCamera();
-
         }
         void LateUpdate()
         {
             CameraCollision();
-            
-            
-
+            UpdateCamera();
         }
         void UpdateCamera()
         {
@@ -79,29 +74,24 @@ namespace Werecat
             {
                 cameraXRotation -= Input.GetAxisRaw("Mouse Y") * ps.LookSensitivityX;
             }
-            //Debug.Log(new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y")) .ToString());
-  
-            //privcameraOffset.z -= Input.GetAxis("Mouse ScrollWheel")* Time.fixedDeltaTime * 30 ;
             pivot.localPosition = new Vector3(privcameraOffset.x, privcameraOffset.y, 0);
-            
+            cam.transform.localPosition = new Vector3(0, 0, cameraOffset.z - distanceOffset);
             pivot.localEulerAngles = new Vector3(cameraXRotation, pivot.localEulerAngles.y, 0);
-            //cam.transform.position = pivot.TransformPoint(Vector3.forward * -(privcameraOffset.z - distanceOffset));
-            //cam.transform.LookAt(pivot);
-            //cam.transform.rotation = pivot.rotation;
+
         }
 
         void CameraCollision() 
         {
-            Vector3 pivPos = pivot.position;
             float _distance = cameraOffset.z;
             RaycastHit _hit;
-
-            if (Physics.Raycast(pivPos, pivot.forward * -1, out _hit, (_distance + 0.5f)))
+            Ray ray = new Ray(pivot.position, pivot.forward * -1);
+            //Debug.DrawLine(pivot.position, pivot.position + pivot.forward * cameraOffset.z);
+            if (Physics.Raycast(ray, out _hit, -(cameraOffset.z - 0.5f), -1, QueryTriggerInteraction.Ignore))
                 {
-                Debug.DrawLine(pivPos, _hit.point);
-                //Debug.Log(pivPos);
-                distanceOffset = cameraOffset.z - _hit.distance + 0.8f;
-                distanceOffset = Mathf.Clamp(distanceOffset, 0, cameraOffset.z);
+                Debug.DrawLine(pivot.position, _hit.point);
+                //distanceOffset = _hit.distance;
+                distanceOffset = cameraOffset.z + (_hit.distance - 0.5f);
+                //distanceOffset = Mathf.Clamp(distanceOffset, cameraOffset.z, 0);
 
             }
             else {

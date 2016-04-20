@@ -50,7 +50,8 @@ namespace Werecat
         }
         void Awake()
         {
-            comms.RegisterEnemy(gameObject);
+            //comms.RegisterEnemy(gameObject);
+            comms = FindObjectOfType<EnemyCommunications>();
         }
         public void TakeDamage(float _damage)
         {
@@ -62,7 +63,7 @@ namespace Werecat
             {
                 health -= _damage;
             }
-            Debug.Log("Took damage : " + _damage.ToString());
+            //Debug.Log("Took damage : " + _damage.ToString());
             if (health <= 0)
             {
                 Destroy(gameObject);

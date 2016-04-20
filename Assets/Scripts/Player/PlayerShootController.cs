@@ -46,7 +46,7 @@ namespace Werecat
             Ray ray = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
 
-            if (Physics.Raycast(ray, out _hit, 300))
+            if (Physics.Raycast(ray, out _hit, 300f, -1, QueryTriggerInteraction.Ignore ))
             { aim = _hit.point; }
             else
             { aim = Camera.main.transform.position + Camera.main.transform.forward * 300; }
